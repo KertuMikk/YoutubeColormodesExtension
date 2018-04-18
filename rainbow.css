@@ -1,0 +1,18 @@
+#content{
+    background-color: red;
+}
+#masthead{
+    background-color: blue;
+}
+#guide-content{
+    background-color: green;
+}
+#container-content{
+    background-color: yellow;
+}
+#container-search{
+    background-color: purple;
+}
+#page-manager{
+    background-color: orange;
+}
