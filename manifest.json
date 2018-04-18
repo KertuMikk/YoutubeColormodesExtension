@@ -1,7 +1,7 @@
 {
-    "name": "Getting Started Example",
+    "name": "Youtube colormode",
     "version": "1.0",
-    "description": "Build an Extension!",
+    "description": "Make your youtube colorful :D ",
     "options_page": "options.html",
     "permissions": ["activeTab","declarativeContent", "storage"],
     "background": {
@@ -10,26 +10,26 @@
     },
     "content_scripts": [
         {
-          "matches": ["httpe://*/*"],
+          "matches": ["https://www.youtube.com/"],
           "css": ["style.css"],
-           "javascript": ["script.css"]
+           "javascript": ["script.js"]
           
         }
       ],
     "page_action": {
         "default_popup": "popup.html",
         "default_icon": {
-            "16": "images/get_started16.png",
-            "32": "images/get_started32.png",
-            "48": "images/get_started48.png",
-            "128": "images/get_started128.png"
+            "16": "images/rainbow-cloud-weather-rain-sky-34c528e3e4de70fc-512x512.png",
+            "32": "images/rainbow-cloud-weather-rain-sky-34c528e3e4de70fc-512x512.png",
+            "48": "images/rainbow-cloud-weather-rain-sky-34c528e3e4de70fc-512x512.png",
+            "128": "images/rainbow-cloud-weather-rain-sky-34c528e3e4de70fc-512x512.png"
           }
       },
       "icons": {
-        "16": "images/get_started16.png",
-        "32": "images/get_started32.png",
-        "48": "images/get_started48.png",
-        "128": "images/get_started128.png"
+        "16": "images/rainbow-cloud-weather-rain-sky-34c528e3e4de70fc-512x512.png",
+        "32": "images/rainbow-cloud-weather-rain-sky-34c528e3e4de70fc-512x512.png",
+        "48": "images/rainbow-cloud-weather-rain-sky-34c528e3e4de70fc-512x512.png",
+        "128": "images/rainbow-cloud-weather-rain-sky-34c528e3e4de70fc-512x512.png"
       },
     "manifest_version": 2
   }

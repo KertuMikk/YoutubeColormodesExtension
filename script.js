@@ -1,4 +1,4 @@
 alert('tervist!')
-document.querySelectorAll('a').forEach(function(link){
-    link.href'youtube.com'
+document.querySelectorAll('a').forEach(function (link) {
+
 })
