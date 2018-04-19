@@ -1,5 +1,5 @@
 # 3. kodutöö – Chrome extension
-Autor:Kertu Mikk
+Autor:Kertu Mikk, Kärt Nigols
 Rakendus lisab youtubele juurde erinevaid colormode-sid nt.red,pastel,rainbow(neid võib soovikorral juurde teha).
 Red
 ![screenshot](images/redScreen.JPG "screenshot")
@@ -8,9 +8,9 @@ Pastel
 Rainbow
 ![screenshot](images/rainbowScreen.JPG "screenshot")
 Navi
-![screenshot](images/NavySC.JPG "screenshot")
+![screenshot](images/NavySC.PNG "screenshot")
 Grayscale
-![screenshot](images/graySc.JPG "screenshot")
+![screenshot](images/graySc.PNG "screenshot")
 
 Kodutööna peab looma Chrome extension'i selliselt, et nõuded oleksid täidetud. Soovi korral võib ka teha Firefox'ile.
 
