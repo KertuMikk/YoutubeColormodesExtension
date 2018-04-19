@@ -1,18 +1,15 @@
 
 #page-manager {
-    
-    
-    background: linear-gradient(to right, red , yellow,rgb(0, 255, 0), cyan, blue, violet); /* Standard syntax (must be last) */
+    background: linear-gradient(to right, red , yellow,rgb(0, 255, 0), cyan, blue, violet); 
 }
 #masthead{
-    background: linear-gradient(to left, red , yellow,rgb(0, 255, 0), cyan, blue, violet); /* Standard syntax (must be last) */
+    background: linear-gradient(to left, red , yellow,rgb(0, 255, 0), cyan, blue, violet); 
 }
 #guide-inner-content{
-
-    background: linear-gradient(to bottom, red , yellow,rgb(0, 255, 0), cyan, blue, violet); /* Standard syntax (must be last) */
+    background: linear-gradient(to bottom, red , yellow,rgb(0, 255, 0), cyan, blue, violet); 
 }
 #top > #container{
-    background: linear-gradient(to top, red , yellow,rgb(0, 255, 0), cyan, blue, violet); /* Standard syntax (must be last) */
+    background: linear-gradient(to top, red , yellow,rgb(0, 255, 0), cyan, blue, violet); 
 }
 #search-form > #container{
     background-color:blue;
@@ -20,8 +17,7 @@
 /*home page colors*/
 .ytd-guide-entry-renderer{
     color: black;
-    
-}
+    }
 span#title.style-scope.ytd-shelf-renderer{
     color:rgb(175, 1, 1); /*big titles*/
 }

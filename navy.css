@@ -1,18 +1,15 @@
 
 #page-manager {
-    
-    
-    background: linear-gradient(to right,black,#1c2338,#1c2746,#1d294d); /* Standard syntax (must be last) */
+    background: linear-gradient(to right,black,#1c2338,#1c2746,#1d294d); 
 }
 #masthead{
-    background: linear-gradient(to right,black,#1c2338,#1c2746,#1d294d); /* Standard syntax (must be last) */
+    background: linear-gradient(to right,black,#1c2338,#1c2746,#1d294d); 
 }
 #guide-inner-content{
-
-    background: linear-gradient(to bottom, black,#1c2338,#1c2746,#1d294d); /* Standard syntax (must be last) */
+    background: linear-gradient(to bottom, black,#1c2338,#1c2746,#1d294d); 
 }
 #top > #container{
-    background: linear-gradient(to top, black,#1c2338,#1c2746,#1d294d); /* Standard syntax (must be last) */
+    background: linear-gradient(to top, black,#1c2338,#1c2746,#1d294d); 
 }
 #search-form > #container{
     background-color:rgb(32, 32, 83);
