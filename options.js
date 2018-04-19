@@ -1,14 +1,14 @@
 
 'use strict'
 
-const kButtonColors = ['#3aa757', '#e8453c', '#f9bb2d', '#4688f1']
+const kButtonColors = ['rainbow', 'pastel', 'red']
 
 function constructOptions (kButtonColors) {
   for (let item of kButtonColors) {
     let button = document.createElement('button')
-    button.style.backgroundColor = item
+    button.style.backgroundImage = "url('C:/users/ketuo/eesrakendused/3.ea-kodutoo/images/" + item + ".png')"
     button.addEventListener('click', function () {
-      chrome.storage.sync.set({color: item}, function () {
+      chrome.storage.sync.set({color: item + '.css'}, function () {
         console.log('color is ' + item)
       })
     })
