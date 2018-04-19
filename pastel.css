@@ -96,3 +96,36 @@ span.style-scope.ytd-comment-renderer,a.yt-simple-endpoint.style-scope.yt-format
 yt-formatted-string#content-text.style-scope.ytd-comment-renderer{
     color:rgb(168, 164, 164);;/*comment*/
 }
+/*channel page */
+div#channel-container.style-scope.ytd-c4-tabbed-header-renderer,
+div#tabs-inner-container.style-scope.ytd-c4-tabbed-header-renderer{
+    background:rgb(201,201,255);
+    /*channel name container*/
+}
+ytd-browse.style-scope.ytd-page-manager{
+    background:rgb(201,201,255);   /*background*/
+}
+ytd-c4-tabbed-header-renderer {
+    --yt-lightsource-section1-color: rgb(201,201,255);
+    --yt-channel-header-background: none;
+}
+span#channel-title.style-scope.ytd-c4-tabbed-header-renderer{
+   color: rgb(168, 89, 158); /*channel name*/
+}
+yt-formatted-string#subscriber-count.style-scope.ytd-c4-tabbed-header-renderer{
+ color: rgb(148, 108, 108); /*supscriber count*/
+}
+div.tab-content.style-scope.paper-tab{
+    color: rgb(238, 148, 142); /*navi nupud*/
+}
+div#label-text.style-scope.yt-dropdown-menu,
+span.title.style-scope.ytd-mini-channel-renderer{
+    color: rgb(255, 124, 189);/*channel names*/
+}
+a.yt-simple-endpoint.style-scope.yt-formatted-string{
+    color:rgb(147, 55, 165); /*channel name on channel page under videos*/
+}
+yt-formatted-string#subtitle.can-be-empty.style-scope.ytd-shelf-renderer{
+    color:rgb(136, 136, 136);
+    /*text under big title on channel page*/
+}

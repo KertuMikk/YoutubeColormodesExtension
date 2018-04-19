@@ -97,3 +97,32 @@ span.style-scope.ytd-comment-renderer,a.yt-simple-endpoint.style-scope.yt-format
 yt-formatted-string#content-text.style-scope.ytd-comment-renderer{
     color:rgb(168, 164, 164);;/*comment*/
 }
+/*channel page */
+div#channel-container.style-scope.ytd-c4-tabbed-header-renderer,
+div#tabs-inner-container.style-scope.ytd-c4-tabbed-header-renderer{
+    background:rgb(63, 0, 0);
+    /*channel name container*/
+}
+ytd-browse.style-scope.ytd-page-manager{
+    background:rgb(70, 1, 1);   /*background*/
+}
+ytd-c4-tabbed-header-renderer {
+    --yt-lightsource-section1-color: rgb(99, 1, 1);
+    --yt-channel-header-background: none;
+}
+span#channel-title.style-scope.ytd-c4-tabbed-header-renderer{
+   color: rgb(168, 89, 89); /*channel name*/
+}
+yt-formatted-string#subscriber-count.style-scope.ytd-c4-tabbed-header-renderer{
+ color: rgb(148, 108, 108); /*supscriber count*/
+}
+div.tab-content.style-scope.paper-tab{
+    color: rgb(238, 148, 142); /*navi nupud*/
+}
+div#label-text.style-scope.yt-dropdown-menu,
+span.title.style-scope.ytd-mini-channel-renderer{
+    color: red;
+}
+a.yt-simple-endpoint.style-scope.yt-formatted-string{
+    color:red;
+}
