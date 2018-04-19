@@ -2,11 +2,11 @@
 Autor:Kertu Mikk
 Rakendus lisab youtubele juurde erinevaid colormode-sid nt.red,pastel,rainbow(neid võib soovikorral juurde teha).
 Red
-![screenshot](redScreen.JPG "screenshot")
+![screenshot](images/redScreen.JPG "screenshot")
 Pastel
-![screenshot](pastelScreen.JPG "screenshot")
+![screenshot](images/pastelScreen.JPG "screenshot")
 Rainbow
-![screenshot](rainbowScreen.JPG "screenshot")
+![screenshot](images/rainbowScreen.JPG "screenshot")
 
 
 
