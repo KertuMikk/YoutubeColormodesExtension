@@ -1,0 +1,98 @@
+
+#page-manager {
+    background: rgb(32, 31, 31);
+}
+#masthead{
+    background: rgb(97, 97, 97);
+}
+#guide-inner-content{
+    background: rgb(97, 97, 97);
+}
+#top > #container{
+    background: rgb(32, 31, 31);
+}
+#search-form > #container{
+    background-color:rgba(211, 211, 211, 0.616);
+}
+
+/*home page colors*/
+.ytd-guide-entry-renderer{
+    color: rgb(0, 0, 0);
+    
+}
+span#title.style-scope.ytd-shelf-renderer{
+    color:rgb(0, 0, 0); /*big titles*/
+}
+h3.style-scope.ytd-grid-radio-renderer,
+a#video-title.yt-simple-endpoint.style-scope.ytd-grid-video-renderer{
+       color:rgb(0, 0, 0); /*my mixes titles,other video titles*/
+}
+yt-formatted-string#byline.style-scope.ytd-video-meta-block,
+div#metadata-line.style-scope.ytd-grid-video-renderer{
+    color:rgb(0, 0, 0); /*my mixes metadata,info about video*/
+}
+
+/*video play colors*/
+yt-formatted-string.style-scope.ytd-video-primary-info-renderer{
+    color:black; /*video nimi*/
+}
+span.view-count.style-scope.yt-view-count-renderer,
+span.date.style-scope.ytd-video-secondary-info-renderer,
+yt-formatted-string#description.content.style-scope.ytd-video-secondary-info-renderer,
+yt-formatted-string.content.content-line-height-override.style-scope.ytd-metadata-row-renderer,
+span.style-scope.ytd-video-meta-block
+{
+    color:gray; /*view count,
+    video release date,
+    video description,
+    licence name,
+    related videos view count*/
+}
+
+div#upnext.style-scope.ytd-compact-autoplay-renderer,div#autoplay.style-scope.ytd-compact-autoplay-renderer{
+    color:gray;
+}/*autoplay, next*/
+span#video-title.style-scope.ytd-compact-video-renderer{
+    color:gray;/*related videos titles*/
+}
+
+
+yt-formatted-string.count-text.style-scope.ytd-comments-header-renderer,
+span#video-title.style-scope.ytd-compact-radio-renderer{
+    color:gray;/*comment count, mix names*/
+}
+div#icon-label.style-scope.yt-dropdown-menu,
+path.style-scope.yt-icon,
+yt-formatted-string.style-scope.yt-next-continuation,
+yt-formatted-string#text.style-scope.ytd-button-renderer,
+span#vote-count-left.style-scope.ytd-comment-action-buttons-renderer,
+paper-button.align-by-text.style-scope.ytd-comment-replies-renderer,
+yt-formatted-string#text.style-scope.ytd-toggle-button-renderer.style-text,
+yt-formatted-string.less-button.style-scope.ytd-video-secondary-info-renderer,
+h4#title.style-scope.ytd-metadata-row-renderer,
+yt-formatted-string.more-button.style-scope.ytd-video-secondary-info-renderer
+{
+    color:gray;/*comment sort,
+     icons,
+     show more,
+     comment button text,
+     comment vote count,
+     show replys button,
+     like/dislike count,
+     kuva vähem(description),
+     kategooria,
+     litsents,
+     kuva rohkem(description)*/
+}
+
+yt-formatted-string#simplebox-placeholder.style-scope.ytd-comment-simplebox-renderer,
+textarea#textarea.style-scope.iron-autogrow-textarea{
+    color:lightgray;/*your comment*/
+}
+
+span.style-scope.ytd-comment-renderer,a.yt-simple-endpoint.style-scope.yt-formatted-string{
+    color: lightgray;/*comment author, when commented, links ,channels under videos on main page*/
+}
+yt-formatted-string#content-text.style-scope.ytd-comment-renderer{
+    color:lightgray;/*comment*/
+}

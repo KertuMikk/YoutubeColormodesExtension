@@ -1,7 +1,7 @@
 
 'use strict'
 
-const kButtonTheme = ['rainbow', 'pastel', 'red', 'navy']
+const kButtonTheme = ['rainbow', 'pastel', 'red', 'navy', 'B&W']
 
 function constructOptions (kButtonTheme) {
   for (let item of kButtonTheme) {
