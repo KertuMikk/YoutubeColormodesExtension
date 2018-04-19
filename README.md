@@ -7,8 +7,10 @@ Pastel
 ![screenshot](images/pastelScreen.JPG "screenshot")
 Rainbow
 ![screenshot](images/rainbowScreen.JPG "screenshot")
-
-
+Navi
+![screenshot](images/NavySC.JPG "screenshot")
+Grayscale
+![screenshot](images/graySc.JPG "screenshot")
 
 Kodutööna peab looma Chrome extension'i selliselt, et nõuded oleksid täidetud. Soovi korral võib ka teha Firefox'ile.
 
