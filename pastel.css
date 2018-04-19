@@ -13,7 +13,7 @@ ytd-browse.style-scope.ytd-page-manager{
 }
 #search-form > #container{
     background: linear-gradient(to left, rgb(255, 174, 208) , rgb(221, 165, 247),rgb(142, 168, 255));
-
+}
 /*home page colors*/
 .ytd-guide-entry-renderer{
     color: black;
