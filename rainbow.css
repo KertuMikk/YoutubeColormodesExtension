@@ -12,7 +12,7 @@
     background: linear-gradient(to top, red , yellow,rgb(0, 255, 0), cyan, blue, violet); 
 }
 #search-form > #container{
-    background-color:blue;
+    background:blue;
 }
 /*home page colors*/
 .ytd-guide-entry-renderer{

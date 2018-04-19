@@ -1,19 +1,18 @@
 
-#page-manager{
-    background: rgb(127, 209, 127);
+ytd-browse.style-scope.ytd-page-manager{
+    background:linear-gradient(to right, rgb(255, 174, 208) , rgb(221, 165, 247),rgb(142, 168, 255));   /*background*/
 }
 #masthead{
     background: rgb(255, 189, 220);
 }
 #guide-inner-content{
-    background: rgb(253, 202, 255);
+    background: rgb(255, 202, 239);
 }
 #top > #container{
     background: linear-gradient(to right, rgb(255, 174, 208) , rgb(221, 165, 247),rgb(142, 168, 255));
 }
 #search-form > #container{
-    background-color: rgb(199, 199, 199);
-}
+    background: linear-gradient(to left, rgb(255, 174, 208) , rgb(221, 165, 247),rgb(142, 168, 255));
 
 /*home page colors*/
 .ytd-guide-entry-renderer{
@@ -99,11 +98,11 @@ yt-formatted-string#content-text.style-scope.ytd-comment-renderer{
 /*channel page */
 div#channel-container.style-scope.ytd-c4-tabbed-header-renderer,
 div#tabs-inner-container.style-scope.ytd-c4-tabbed-header-renderer{
-    background:rgb(201,201,255);
+    background:rgb(255, 201, 234);
     /*channel name container*/
 }
 ytd-browse.style-scope.ytd-page-manager{
-    background:rgb(201,201,255);   /*background*/
+    background:linear-gradient(to right, rgb(255, 174, 208) , rgb(221, 165, 247),rgb(142, 168, 255));   /*background*/
 }
 ytd-c4-tabbed-header-renderer {
     --yt-lightsource-section1-color: rgb(201,201,255);
