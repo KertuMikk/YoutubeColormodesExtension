@@ -2,4 +2,4 @@ content = video thumbnailide taga olev taust
 masthead = ülemine otsinguriba 
 guide-content= vasakul olev content riba
 container = video mängimise ajal alumise contenti taust(page manager)/ search box(masthead) 
-page-manager = lehekülje taust
+

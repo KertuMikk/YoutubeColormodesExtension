@@ -4,15 +4,12 @@
 #masthead{
     background-color: blue;
 }
-#guide-content{
+#guide{
     background-color: green;
 }
-#container-content{
+#playBackground{
     background-color: yellow;
 }
-#container-search{
+#search{
     background-color: purple;
-}
-#page-manager{
-    background-color: orange;
 }
