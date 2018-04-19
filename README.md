@@ -1,4 +1,8 @@
 # 3. kodutöö – Chrome extension
+Autor:Kertu Mikk
+Rakendus lisab youtubele juurde erinevaid colormode-sid nt.red,pastel,rainbow(neid võib soovikorral juurde teha).
+
+
 
 Kodutööna peab looma Chrome extension'i selliselt, et nõuded oleksid täidetud. Soovi korral võib ka teha Firefox'ile.
 
