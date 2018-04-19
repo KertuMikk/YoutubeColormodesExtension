@@ -14,8 +14,9 @@ chrome.storage.sync.get('item', function (data) {
   item = data.item
 })
 changeColor.onclick = function () {
-  chrome.tabs.executeScript(
-    loadcss('https://raw.githubusercontent.com/KertuMikk/3.ea-kodutoo/master/' + item + '.css'))
+  chrome.tabs.insertCSS({file: item + '.css'})
+//  chrome.tabs.executeScript(
+  //   loadcss('https://raw.githubusercontent.com/KertuMikk/3.ea-kodutoo/master/' + item + '.css'))
 }
 function loadcss (url) {
   var head = document.getElementsByTagName('head')[0]
