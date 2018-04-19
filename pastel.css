@@ -1,0 +1,15 @@
+#page-manager {
+    background-color: rgb(143, 255, 231);
+}
+#masthead{
+    background-color: rgb(250, 117, 117);
+}
+#guide-inner-content{
+    background-color: rgb(133, 255, 133);
+}
+#top > #container{
+    background-color: rgb(255, 187, 124);
+}
+#search-form > #container{
+    background-color: rgb(255, 152, 255);
+}
