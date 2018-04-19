@@ -1,15 +1,15 @@
 
-#page-manager {
-    background: rgb(201,201,255);
+#page-manager{
+    background: rgb(127, 209, 127);
 }
 #masthead{
-    background: rgb(255,189,189);
+    background: rgb(255, 189, 220);
 }
 #guide-inner-content{
-    background: rgb(225,247,213);
+    background: rgb(253, 202, 255);
 }
 #top > #container{
-    background: rgb(201,201,255);
+    background: linear-gradient(to right, rgb(255, 174, 208) , rgb(221, 165, 247),rgb(142, 168, 255));
 }
 #search-form > #container{
     background-color: rgb(199, 199, 199);
