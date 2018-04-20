@@ -1,5 +1,9 @@
 
-#page-manager {
+#page-manager ,
+ytd-search.style-scope.ytd-page-manager,
+div#contents.style-scope.ytd-item-section-renderer,
+ytd-alert-renderer.style-scope.ytd-browse,
+ytd-two-column-browse-results-renderer.style-scope.ytd-browse {
     background: rgb(32, 31, 31);
 }
 #masthead{
@@ -14,7 +18,15 @@
 #search-form > #container{
     background:rgba(211, 211, 211, 0.616);
 }
-
+ytd-playlist-sidebar-renderer.style-scope.ytd-browse{
+    background: rgb(22, 22, 22);
+}
+div#header.ytd-multi-page-menu-renderer{
+    background: yellow;
+   }
+   div#container.menu-container.ytd-multi-page-menu-renderer{
+   background: green;
+   }
 /*home page colors*/
 .ytd-guide-entry-renderer{
     color: rgb(0, 0, 0);
@@ -24,7 +36,8 @@ span#title.style-scope.ytd-shelf-renderer{
     color:rgb(122, 153, 149); /*big titles*/
 }
 h3.style-scope.ytd-grid-radio-renderer,
-a#video-title.yt-simple-endpoint.style-scope.ytd-grid-video-renderer{
+a#video-title.yt-simple-endpoint.style-scope.ytd-grid-video-renderer,
+span#title.style-scope.ytd-grid-channel-renderer{
        color:rgb(157, 157, 177, 0.822); /*my mixes titles,other video titles*/
 }
 yt-formatted-string#byline.style-scope.ytd-video-meta-block,

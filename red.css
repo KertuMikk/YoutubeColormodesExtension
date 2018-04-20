@@ -1,5 +1,9 @@
 
-#page-manager {
+#page-manager,
+ytd-search.style-scope.ytd-page-manager,
+div#contents.style-scope.ytd-item-section-renderer,
+ytd-alert-renderer.style-scope.ytd-browse,
+ytd-two-column-browse-results-renderer.style-scope.ytd-browse {
     background: rgb(58, 0, 17);
 }
 #masthead{
@@ -15,6 +19,16 @@
     background: rgb(138, 70, 85);
 }
 
+ytd-playlist-sidebar-renderer.style-scope.ytd-browse{
+    background: rgb(32, 0, 9);
+}
+div#header.ytd-multi-page-menu-renderer{
+    background: rgb(104, 1, 30);
+   }
+   div#container.menu-container.ytd-multi-page-menu-renderer{
+   background: rgb(32, 0, 9);
+   }
+
 /*home page colors*/
 .ytd-guide-entry-renderer{
     color: rgb(219, 159, 169);
@@ -24,7 +38,8 @@ span#title.style-scope.ytd-shelf-renderer{
     color:rgb(212, 0, 71); /*big titles*/
 }
 h3.style-scope.ytd-grid-radio-renderer,
-a#video-title.yt-simple-endpoint.style-scope.ytd-grid-video-renderer{
+a#video-title.yt-simple-endpoint.style-scope.ytd-grid-video-renderer,
+span#title.style-scope.ytd-grid-channel-renderer{
        color:rgb(230, 82, 107); /*my mixes titles,other video titles*/
 }
 yt-formatted-string#byline.style-scope.ytd-video-meta-block,

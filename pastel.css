@@ -1,6 +1,11 @@
 
-ytd-browse.style-scope.ytd-page-manager{
+ytd-browse.style-scope.ytd-page-manager,
+ytd-search.style-scope.ytd-page-manager,
+div#contents.style-scope.ytd-item-section-renderer,
+ytd-alert-renderer.style-scope.ytd-browse,
+ytd-two-column-browse-results-renderer.style-scope.ytd-browse{
     background:linear-gradient(to right, rgb(255, 174, 208) , rgb(221, 165, 247),rgb(142, 168, 255));   /*background*/
+    background-color: yellow;
 }
 #masthead{
     background: rgb(255, 189, 220);
@@ -14,6 +19,16 @@ ytd-browse.style-scope.ytd-page-manager{
 #search-form > #container{
     background: linear-gradient(to left, rgb(255, 174, 208) , rgb(221, 165, 247),rgb(142, 168, 255));
 }
+ytd-playlist-sidebar-renderer.style-scope.ytd-browse{
+    background: rgb(255, 202, 239);
+
+}
+div#header.ytd-multi-page-menu-renderer{
+    background: rgb(142, 168, 255);
+   }
+   div#container.menu-container.ytd-multi-page-menu-renderer{
+   background: rgb(221, 165, 247);
+   }
 /*home page colors*/
 .ytd-guide-entry-renderer{
     color: black;
@@ -23,7 +38,8 @@ span#title.style-scope.ytd-shelf-renderer{
     color:rgb(129, 63, 155); /*big titles*/
 }
 h3.style-scope.ytd-grid-radio-renderer,
-a#video-title.yt-simple-endpoint.style-scope.ytd-grid-video-renderer{
+a#video-title.yt-simple-endpoint.style-scope.ytd-grid-video-renderer,
+span#title.style-scope.ytd-grid-channel-renderer{
        color:rgb(65, 65, 175); /*my mixes titles,other video titles*/
 }
 yt-formatted-string#byline.style-scope.ytd-video-meta-block,
