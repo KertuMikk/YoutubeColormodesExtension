@@ -6,13 +6,13 @@
     background: linear-gradient(to left, red , yellow,rgb(0, 255, 0), cyan, blue, violet); 
 }
 #guide-inner-content{
-    background: linear-gradient(to bottom, red , yellow,rgb(0, 255, 0), cyan, blue, violet); 
+    background: linear-gradient(to top, red , yellow,rgb(0, 255, 0), cyan, blue, violet); 
 }
 #top > #container{
     background: linear-gradient(to top, red , yellow,rgb(0, 255, 0), cyan, blue, violet); 
 }
 #search-form > #container{
-    background:blue;
+    background: linear-gradient(to right, red , yellow,rgb(0, 255, 0), cyan, blue, violet); 
 }
 /*home page colors*/
 .ytd-guide-entry-renderer{
