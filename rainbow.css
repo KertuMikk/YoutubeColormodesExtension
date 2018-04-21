@@ -1,11 +1,19 @@
 
 #page-manager,
+ytd-browse.style-scope.ytd-page-manager,
 ytd-search.style-scope.ytd-page-manager,
-div#contents.style-scope.ytd-item-section-renderer,
 ytd-alert-renderer.style-scope.ytd-browse,
 ytd-two-column-browse-results-renderer.style-scope.ytd-browse  {
     background: linear-gradient(to right, red , yellow,rgb(0, 255, 0), cyan, blue, violet); 
 }
+
+div#contents.style-scope.ytd-item-section-renderer,
+ytd-two-column-browse-results-renderer.style-scope.ytd-browse,
+ytd-two-column-browse-results-renderer.ytd-browse{
+    background:rgba(255, 255, 255, 0);
+    background-color:rgba(255, 255, 255, 0);
+    --yt-app-background : rgba(255,255,255,0);
+    }
 #masthead{
     background: linear-gradient(to left, red , yellow,rgb(0, 255, 0), cyan, blue, violet); 
 }
@@ -34,7 +42,8 @@ div#header.ytd-multi-page-menu-renderer{
 .ytd-guide-entry-renderer{
     color: black;
     }
-span#title.style-scope.ytd-shelf-renderer{
+span#title.style-scope.ytd-shelf-renderer,
+yt-formatted-string#result-count.style-scope.ytd-search-sub-menu-renderer{
     color:rgb(175, 1, 1); /*big titles*/
 }
 h3.style-scope.ytd-grid-radio-renderer,
@@ -43,12 +52,15 @@ span#title.style-scope.ytd-grid-channel-renderer{
        color:rgb(3, 3, 192); /*my mixes titles,other video titles*/
 }
 yt-formatted-string#byline.style-scope.ytd-video-meta-block,
-div#metadata-line.style-scope.ytd-grid-video-renderer{
+div#metadata-line.style-scope.ytd-grid-video-renderer,
+span.style-scope.ytd-video-meta-block{
     color:rgb(194, 66, 194); /*my mixes metadata,info about video*/
 }
 
 /*video play colors*/
-yt-formatted-string.style-scope.ytd-video-primary-info-renderer{
+yt-formatted-string.style-scope.ytd-video-primary-info-renderer,
+a#video-title.yt-simple-endpoint.style-scope.ytd-video-renderer,
+span#video-title.ytd-playlist-video-renderer{
     color:black; /*video nimi*/
 }
 span.view-count.style-scope.yt-view-count-renderer,
@@ -115,10 +127,7 @@ div#tabs-inner-container.style-scope.ytd-c4-tabbed-header-renderer{
     background: linear-gradient(to right, red , yellow,rgb(0, 255, 0), cyan, blue, violet); 
     /*channel name container*/
 }
-ytd-browse.style-scope.ytd-page-manager{
-    background: linear-gradient(to right, red , yellow,rgb(0, 255, 0), cyan, blue, violet); 
-       /*background*/
-}
+
 ytd-c4-tabbed-header-renderer {
     --yt-lightsource-section1-color: rgb(54, 54, 54);
     --yt-channel-header-background: none;
