@@ -64,8 +64,7 @@ span#video-title.ytd-playlist-video-renderer{
 span.view-count.style-scope.yt-view-count-renderer,
 span.date.style-scope.ytd-video-secondary-info-renderer,
 yt-formatted-string#description.content.style-scope.ytd-video-secondary-info-renderer,
-yt-formatted-string.content.content-line-height-override.style-scope.ytd-metadata-row-renderer,
-span.style-scope.ytd-video-meta-block
+yt-formatted-string.content.content-line-height-override.style-scope.ytd-metadata-row-renderer
 {
     color:rgb(121, 118, 118); /*view count,
     video release date,
