@@ -28,10 +28,10 @@ ytd-playlist-sidebar-renderer.style-scope.ytd-browse{
     background: rgb(22, 22, 22);
 }
 div#header.ytd-multi-page-menu-renderer{
-    background: rgb(36, 36, 36);
+    background: rgb(129, 129, 129);
    }
    div#container.menu-container.ytd-multi-page-menu-renderer{
-   background: rgb(129, 129, 129);
+   background: rgb(36, 36, 36);
    }
 /*home page colors*/
 .ytd-guide-entry-renderer{
@@ -39,8 +39,9 @@ div#header.ytd-multi-page-menu-renderer{
     
 }
 span#title.style-scope.ytd-shelf-renderer,
-yt-formatted-string#result-count.style-scope.ytd-search-sub-menu-renderer{
-    color:rgb(122, 153, 149); /*big titles*/
+yt-formatted-string#result-count.style-scope.ytd-search-sub-menu-renderer,
+div.text.ytd-notification-renderer{
+    color:rgb(160, 160, 160); /*big titles*/
 }
 h3.style-scope.ytd-grid-radio-renderer,
 a#video-title.yt-simple-endpoint.style-scope.ytd-grid-video-renderer,

@@ -40,7 +40,8 @@ background: black;
     
 }
 span#title.style-scope.ytd-shelf-renderer,
-yt-formatted-string#result-count.style-scope.ytd-search-sub-menu-renderer{
+yt-formatted-string#result-count.style-scope.ytd-search-sub-menu-renderer,
+div.text.ytd-notification-renderer{
     color:rgb(255, 255, 255); /*big titles*/
 }
 h3.style-scope.ytd-grid-radio-renderer,

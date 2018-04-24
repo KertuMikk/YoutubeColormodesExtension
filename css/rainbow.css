@@ -43,7 +43,8 @@ div#header.ytd-multi-page-menu-renderer{
     color: black;
     }
 span#title.style-scope.ytd-shelf-renderer,
-yt-formatted-string#result-count.style-scope.ytd-search-sub-menu-renderer{
+yt-formatted-string#result-count.style-scope.ytd-search-sub-menu-renderer,
+div.text.ytd-notification-renderer{
     color:rgb(175, 1, 1); /*big titles*/
 }
 h3.style-scope.ytd-grid-radio-renderer,
