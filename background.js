@@ -5,7 +5,7 @@
 'use strict'
 
 chrome.runtime.onInstalled.addListener(function () {
-  chrome.storage.sync.set({color: "url('https://raw.githubusercontent.com/KertuMikk/3.ea-kodutoo/master/images/rainbow.png')"}, function () {
+  chrome.storage.sync.set({color: "url('https://raw.githubusercontent.com/KertuMikk/YoutubeColormodesExtension/master/images/rainbow.png')"}, function () {
 
   })
   chrome.declarativeContent.onPageChanged.removeRules(undefined, function () {

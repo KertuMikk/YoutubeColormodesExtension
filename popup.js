@@ -14,5 +14,5 @@ chrome.storage.sync.get('item', function (data) {
   item = data.item
 })
 changeColor.onclick = function () {
-  chrome.tabs.insertCSS({file: item + '.css'})
+  chrome.tabs.insertCSS({file: 'css/' + item + '.css'})
 }
