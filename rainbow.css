@@ -53,8 +53,9 @@ span#title.style-scope.ytd-grid-channel-renderer{
 }
 yt-formatted-string#byline.style-scope.ytd-video-meta-block,
 div#metadata-line.style-scope.ytd-grid-video-renderer,
-span.style-scope.ytd-video-meta-block{
-    color:rgb(194, 66, 194); /*my mixes metadata,info about video*/
+span.style-scope.ytd-video-meta-block,
+a.yt-simple-endpoint.yt-formatted-string:visited{
+    color:rgb(194, 66, 194); /*my mixes metadata,info about video, visited or not*/
 }
 
 /*video play colors*/
@@ -63,6 +64,7 @@ a#video-title.yt-simple-endpoint.style-scope.ytd-video-renderer,
 span#video-title.ytd-playlist-video-renderer{
     color:black; /*video nimi*/
 }
+
 span.view-count.style-scope.yt-view-count-renderer,
 span.date.style-scope.ytd-video-secondary-info-renderer,
 yt-formatted-string#description.content.style-scope.ytd-video-secondary-info-renderer,

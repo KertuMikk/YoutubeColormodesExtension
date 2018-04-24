@@ -44,7 +44,8 @@ yt-formatted-string#result-count.style-scope.ytd-search-sub-menu-renderer{
 }
 h3.style-scope.ytd-grid-radio-renderer,
 a#video-title.yt-simple-endpoint.style-scope.ytd-grid-video-renderer,
-span#title.style-scope.ytd-grid-channel-renderer{
+span#title.style-scope.ytd-grid-channel-renderer,
+a.yt-simple-endpoint.yt-formatted-string:visited{
        color:rgb(157, 157, 177, 0.822); /*my mixes titles,other video titles*/
 }
 yt-formatted-string#byline.style-scope.ytd-video-meta-block,

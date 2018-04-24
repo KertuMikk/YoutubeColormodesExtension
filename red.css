@@ -52,7 +52,8 @@ span#title.style-scope.ytd-grid-channel-renderer{
 }
 yt-formatted-string#byline.style-scope.ytd-video-meta-block,
 div#metadata-line.style-scope.ytd-grid-video-renderer,
-span.style-scope.ytd-video-meta-block{
+span.style-scope.ytd-video-meta-block,
+a.yt-simple-endpoint.yt-formatted-string:visited{
     color:rgb(235, 164, 179); /*my mixes metadata,info about video*/
 }
 
