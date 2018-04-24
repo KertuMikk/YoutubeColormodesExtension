@@ -28,10 +28,10 @@ ytd-playlist-sidebar-renderer.style-scope.ytd-browse{
     background: rgb(22, 22, 22);
 }
 div#header.ytd-multi-page-menu-renderer{
-    background: yellow;
+    background: rgb(36, 36, 36);
    }
    div#container.menu-container.ytd-multi-page-menu-renderer{
-   background: green;
+   background: rgb(129, 129, 129);
    }
 /*home page colors*/
 .ytd-guide-entry-renderer{
