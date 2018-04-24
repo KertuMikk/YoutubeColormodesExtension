@@ -60,8 +60,10 @@ div#metadata-line.style-scope.ytd-grid-video-renderer,
 span.style-scope.ytd-video-meta-block,
 a.yt-simple-endpoint.yt-formatted-string:visited,
 span.style-scope.ytd-comment-renderer,
-a.yt-simple-endpoint.style-scope.yt-formatted-string{
-    color:rgb(197, 240, 235); /*my mixes metadata,info about video*/
+a.yt-simple-endpoint.style-scope.yt-formatted-string,
+yt-formatted-string#description-text.style-scope.ytd-video-renderer,
+yt-formatted-string#title-annotation.style-scope.ytd-shelf-renderer{
+    color:rgb(197, 240, 235); /*my mixes metadata,info about video, home page text about vids*/
 }
 
 /*video play colors*/
