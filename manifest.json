@@ -10,7 +10,7 @@
     },
     "content_scripts": [
               {
-                "matches": ["https://www.youtube.com/"], //change if another theme is wanted
+                "matches": ["https://www.youtube.com/*"], //change if another theme is wanted
                 "css": ["css/Mint.css"]
                 
               }
