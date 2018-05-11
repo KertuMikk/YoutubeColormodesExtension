@@ -1,13 +1,15 @@
 
-#page-manager,
+#page-manager ,
 ytd-search.style-scope.ytd-page-manager,
 ytd-alert-renderer.style-scope.ytd-browse,
-ytd-two-column-browse-results-renderer.style-scope.ytd-browse  {
+ytd-two-column-browse-results-renderer.style-scope.ytd-browse,
+ytd-watch.style-scope.ytd-page-manager.hide-skeleton {
     background: linear-gradient(to right,black,#1c2338,#1c2746,#1d294d); 
 }
 div#contents.style-scope.ytd-item-section-renderer,
 ytd-two-column-browse-results-renderer.style-scope.ytd-browse,
-ytd-two-column-browse-results-renderer.ytd-browse{
+ytd-two-column-browse-results-renderer.ytd-browse,
+#top > #containerse{
     background:rgba(255, 255, 255, 0);
     background-color:rgba(255, 255, 255, 0);
     --yt-app-background : rgba(255,255,255,0);
@@ -18,9 +20,7 @@ ytd-two-column-browse-results-renderer.ytd-browse{
 #guide-inner-content{
     background: linear-gradient(to bottom, black,#1c2338,#1c2746,#1d294d); 
 }
-#top > #container{
-    background: linear-gradient(to top, black,#1c2338,#1c2746,#1d294d); 
-}
+
 #search-form > #container{
     background:rgb(32, 32, 83);
 }

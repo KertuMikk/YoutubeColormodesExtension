@@ -2,12 +2,14 @@
 #page-manager ,
 ytd-search.style-scope.ytd-page-manager,
 ytd-alert-renderer.style-scope.ytd-browse,
-ytd-two-column-browse-results-renderer.style-scope.ytd-browse {
+ytd-two-column-browse-results-renderer.style-scope.ytd-browse,
+ytd-watch.style-scope.ytd-page-manager.hide-skeleton  {
     background: rgb(32, 31, 31);
 }
 div#contents.style-scope.ytd-item-section-renderer,
 ytd-two-column-browse-results-renderer.style-scope.ytd-browse,
-ytd-two-column-browse-results-renderer.ytd-browse{
+ytd-two-column-browse-results-renderer.ytd-browse,
+#top > #container{
     background:rgba(255, 255, 255, 0);
     background-color:rgba(255, 255, 255, 0);
     --yt-app-background : rgba(255,255,255,0);
@@ -18,9 +20,7 @@ ytd-two-column-browse-results-renderer.ytd-browse{
 #guide-inner-content{
     background: rgb(97, 97, 97);
 }
-#top > #container{
-    background: rgb(32, 31, 31);
-}
+
 #search-form > #container{
     background:rgba(211, 211, 211, 0.616);
 }
