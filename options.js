@@ -52,7 +52,7 @@ function placement () {
       if (counter === 10) {
         left = 10
       }
-    } else if (counter > 11) {
+    } else if (counter > 10) {
       top = top + 400
       sheet = document.createElement('style')
       sheet.innerHTML = 'div#' + item + '{position:absolute; height:250px; width:250px; left:' + left + 'px; top:' + top + 'px;}\n'
