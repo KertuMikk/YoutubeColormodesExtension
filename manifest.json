@@ -12,7 +12,7 @@
     "content_scripts": [
               {
                 "matches": ["https://www.youtube.com/*"], //change if another theme is wanted
-                //"css": ["css/test.css"]
+                //"css": ["css/*"],
                 "js":["loadCss.js"]
                 
               }
