@@ -71,13 +71,14 @@ span.deemphasize.style-scope.yt-formatted-string{
 }
 span#title.style-scope.ytd-shelf-renderer,
 yt-formatted-string#result-count.style-scope.ytd-search-sub-menu-renderer,
-div.text.ytd-notification-renderer{
-    color:rgb(253, 183, 187); /*big titles*/
+div.text.ytd-notification-renderer,
+yt-formatted-string#title-annotation.style-scope.ytd-shelf-renderer
+{
+    color:rgb(253, 183, 187); /*big titles and text beside that*/
 }
 h3.style-scope.ytd-grid-radio-renderer,
 a#video-title.yt-simple-endpoint.style-scope.ytd-grid-video-renderer,
-a#video-title.yt-simple-endpoint.style-scope.ytd-grid-video-renderer,
-span#title.style-scope.ytd-grid-channel-renderer,
+span#title.style-scope.ytd-grid-channel-renderer
 {
        color:rgb(233, 168, 172); /*my mixes titles,other video titles*/
 }
