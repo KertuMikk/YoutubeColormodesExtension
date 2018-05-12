@@ -13,7 +13,7 @@ changeColor.onclick = function () {
   chrome.tabs.insertCSS({file: 'css/' + item + '.css'})
 } */
 
-const kButtonTheme = ['rainbow', 'pastel', 'red', 'navy', 'B&W', 'Mint', 'rose']
+const kButtonTheme = ['rainbow', 'pastel', 'red', 'navy', 'grey', 'Mint', 'rose']
 
 function constructOptions (kButtonTheme) {
   for (let item of kButtonTheme) {
