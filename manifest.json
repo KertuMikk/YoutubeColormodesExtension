@@ -3,20 +3,13 @@
     "version": "1.0",
     "description": "Make your youtube colorful :D ",
     "options_page": "options.html",
-    "permissions": ["activeTab","declarativeContent", "storage", "tabs"],
+    "permissions": ["activeTab","declarativeContent", "storage","https://www.youtube.com/*", "tabs" ],
     "background": {
       "scripts": ["background.js"],
       "persistent": false
     },
     
-    "content_scripts": [
-              {
-                "matches": ["https://www.youtube.com/*"], //change if another theme is wanted
-                //"css": ["css/*"],
-                "js":["loadCss.js"]
-                
-              }
-            ],
+  
             "web_accessible_resources": [
               "css/*"
           ],
