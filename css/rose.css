@@ -40,8 +40,12 @@ div#header.ytd-multi-page-menu-renderer{
     color: rgb(83, 53, 64);
     
 }
-paper-button.style-scope.ytd-subscribe-button-renderer{
-    background: rgb(238, 169, 172); /*subscribe buttons background*/
+
+paper-button.style-scope.ytd-subscribe-button-renderer
+{
+   
+    background: rgb(238, 169, 172);
+     /*subscribe buttons background*/
 }
 yt-formatted-string.style-scope.ytd-subscribe-button-renderer,
 span.deemphasize.style-scope.yt-formatted-string{
@@ -107,7 +111,8 @@ paper-button.align-by-text.style-scope.ytd-comment-replies-renderer,
 yt-formatted-string#text.style-scope.ytd-toggle-button-renderer.style-text,
 yt-formatted-string.less-button.style-scope.ytd-video-secondary-info-renderer,
 h4#title.style-scope.ytd-metadata-row-renderer,
-yt-formatted-string.more-button.style-scope.ytd-video-secondary-info-renderer
+yt-formatted-string.more-button.style-scope.ytd-video-secondary-info-renderer,
+g.style-scope.yt-icon
 {
     color:rgb(139, 88, 107);/*comment sort,
      icons,
