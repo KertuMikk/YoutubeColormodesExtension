@@ -8,6 +8,7 @@
       "scripts": ["background.js"],
       "persistent": false
     },
+    
     "content_scripts": [
               {
                 "matches": ["https://www.youtube.com/*"], //change if another theme is wanted
@@ -16,6 +17,9 @@
                 
               }
             ],
+            "web_accessible_resources": [
+              "css/*"
+          ],
  
     "page_action": {
         "default_popup": "popup.html",
