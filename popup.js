@@ -37,11 +37,5 @@ function constructOptions (kButtonTheme) {
     document.getElementById('buttonDiv').appendChild(button)
   }
 }
-window.onload = function () {
-  chrome.storage.sync.get('item', function (data) {
-    console.log('color is ' + data.item)
-    chrome.tabs.insertCSS({file: 'css/' + data.item})
-  })
-}
 
 constructOptions(kButtonTheme)
