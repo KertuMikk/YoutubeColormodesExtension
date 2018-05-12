@@ -39,6 +39,9 @@ background: black;
     color: rgb(29, 54, 107);
     
 }
+paper-button.style-scope.ytd-subscribe-button-renderer{
+    background: rgb(56, 49, 126); /*subscribe buttons*/
+}
 span#title.style-scope.ytd-shelf-renderer,
 yt-formatted-string#result-count.style-scope.ytd-search-sub-menu-renderer,
 div.text.ytd-notification-renderer{

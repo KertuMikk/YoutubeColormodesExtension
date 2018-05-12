@@ -45,6 +45,9 @@ div.text.ytd-notification-renderer{
     color: rgb(119, 165, 163);
     
 }
+paper-button.style-scope.ytd-subscribe-button-renderer{
+    background: rgb(84,25,25); /*subscribe buttons*/
+}
 span#title.style-scope.ytd-shelf-renderer,
 yt-formatted-string#result-count.style-scope.ytd-search-sub-menu-renderer{
     color:rgb(116, 173, 167); /*big titles*/

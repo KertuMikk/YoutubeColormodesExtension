@@ -40,6 +40,10 @@ div#header.ytd-multi-page-menu-renderer{
     color: rgb(219, 159, 169);
     
 }
+paper-button.style-scope.ytd-subscribe-button-renderer{
+    background: rgb(146, 0, 37); /*subscribe buttons*/
+}
+
 span#title.style-scope.ytd-shelf-renderer,
 yt-formatted-string#result-count.style-scope.ytd-search-sub-menu-renderer,
 div.text.ytd-notification-renderer{

@@ -39,6 +39,9 @@ div#header.ytd-multi-page-menu-renderer{
     color: black;
     
 }
+paper-button.style-scope.ytd-subscribe-button-renderer{
+    background: rgb(185, 95, 185); /*subscribe buttons*/
+}
 span#title.style-scope.ytd-shelf-renderer,
 yt-formatted-string#result-count.style-scope.ytd-search-sub-menu-renderer,
 div.text.ytd-notification-renderer{
