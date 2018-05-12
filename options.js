@@ -27,38 +27,41 @@ function constructOptions (kButtonTheme) {
   } /* COMMENT OUT TO MOVE COLOR SELECTION TO OPTIONS */
 }
 function placement () {
-  let counter = 0
+  let counter = 1
   let left = 10
-  let top = 40
+
   var sheet
   for (let item of kButtonTheme) {
-    if (counter < 5) {
+    if (counter < 6) {
       sheet = document.createElement('style')
-      sheet.innerHTML = 'div#' + item + '{position:absolute; height:250px; width:250px; left:' + left + 'px; top:' + top + 'px;}\n'
+      sheet.innerHTML = 'div#' + item + '{position:absolute; height:250px; width:250px; left:' + left + 'px; top:150px;}\n'
       document.head.appendChild(sheet)
       left = left + 200
-      counter++
       console.log(counter)
-      if (counter === 5) {
+      counter++
+
+      if (counter === 6) {
         left = 10
       }
-    } else if (counter > 4 && counter < 11) {
-      top = top + 200
+    } else if (counter > 5 && counter <= 10) {
       sheet = document.createElement('style')
-      sheet.innerHTML = 'div#' + item + '{position:absolute; height:250px; width:250px; left:' + left + 'px; top:' + top + 'px;}\n'
+      sheet.innerHTML = 'div#' + item + '{position:absolute; height:250px; width:250px; left:' + left + 'px; top:370px;}\n'
       document.head.appendChild(sheet)
-      counter++
+      left = left + 200
       console.log(counter)
-      if (counter === 10) {
+      counter++
+
+      if (counter === 11) {
         left = 10
       }
-    } else if (counter > 10) {
-      top = top + 400
+    } else if (counter > 10 && counter <= 15) {
       sheet = document.createElement('style')
-      sheet.innerHTML = 'div#' + item + '{position:absolute; height:250px; width:250px; left:' + left + 'px; top:' + top + 'px;}\n'
+      sheet.innerHTML = 'div#' + item + '{position:absolute; height:250px; width:250px; left:' + left + 'px; top:590px;}\n'
       document.head.appendChild(sheet)
-      counter++
+      left = left + 200
       console.log(counter)
+      counter++
+
       if (counter === 15) {
         left = 10
       }
