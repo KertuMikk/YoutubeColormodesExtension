@@ -29,9 +29,19 @@ function constructOptions (kButtonTheme) {
     })
     */
     button.onclick = function () {
+      chrome.storage.sync.set({item: item + '.css'}, function () {
+        console.log('color is ' + item)
+      })
       chrome.tabs.insertCSS({file: 'css/' + item + '.css'})
     }
     document.getElementById('buttonDiv').appendChild(button)
   }
 }
+window.onload = function () {
+  chrome.storage.sync.get('item', function (data) {
+    console.log('color is ' + data.item)
+    chrome.tabs.insertCSS({file: 'css/' + data.item})
+  })
+}
+
 constructOptions(kButtonTheme)
