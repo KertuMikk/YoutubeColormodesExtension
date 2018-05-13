@@ -14,3 +14,5 @@ Grayscale
 ![screenshot](images/graySc.JPG "screenshot")
 Mint
 ![screenshot](images/MintScreen.JPG "screenshot")
+rose
+![screenshot](images/roseScreen.JPG "screenshot")
