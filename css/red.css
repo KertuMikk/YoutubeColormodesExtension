@@ -18,7 +18,7 @@ ytd-two-column-browse-results-renderer.ytd-browse,
     background: rgb(110, 0, 33);
 }
 #guide-inner-content{
-    background: rgb(128, 20, 43);
+    background: rgb(110, 0, 33);
 }
 
 #search-form > #container{
@@ -131,7 +131,7 @@ yt-formatted-string#content-text.style-scope.ytd-comment-renderer{
 /*channel page */
 div#channel-container.style-scope.ytd-c4-tabbed-header-renderer,
 div#tabs-inner-container.style-scope.ytd-c4-tabbed-header-renderer{
-    background:rgb(63, 0, 16);
+    background:rgb(110, 0, 33);
     /*channel name container*/
 }
 
