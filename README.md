@@ -1,6 +1,6 @@
 
-Autorid:Kertu Mikk, Kärt Nigols
-Rakendus lisab youtubele juurde erinevaid colormode-sid nt.red,pastel,rainbow(neid võib soovikorral juurde teha).
+Authors:Kertu Mikk, Kärt Nigols
+With this extension you can make your youtube experience more colorful.
 
 Red
 ![screenshot](images/redScreen.JPG "screenshot")
@@ -16,3 +16,4 @@ Mint
 ![screenshot](images/MintScreen.JPG "screenshot")
 rose
 ![screenshot](images/roseScreen.JPG "screenshot")
+Other themes will be added over time.
