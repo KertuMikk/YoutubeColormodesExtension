@@ -74,13 +74,24 @@ yt-formatted-string#result-count.style-scope.ytd-search-sub-menu-renderer,
 div.text.ytd-notification-renderer,
 yt-formatted-string#title-annotation.style-scope.ytd-shelf-renderer
 {
-    color:rgb(253, 183, 187); /*big titles and text beside that*/
+    color:rgb(248, 209, 212); /*big titles and text beside that*/
 }
 h3.style-scope.ytd-grid-radio-renderer,
 a#video-title.yt-simple-endpoint.style-scope.ytd-grid-video-renderer,
-span#title.style-scope.ytd-grid-channel-renderer
+span#title.style-scope.ytd-grid-channel-renderer,
+#video-title.ytd-playlist-renderer
 {
-       color:rgb(233, 168, 172); /*my mixes titles,other video titles*/
+       color:rgb(248, 209, 212); /*my mixes titles,other video titles*/
+}
+yt-formatted-string.style-scope.ytd-search-filter-group-renderer,
+yt-formatted-string.style-scope.ytd-search-filter-renderer
+{
+    color:rgb(233, 168, 172); 
+    
+}
+ytd-search-filter-renderer.selected yt-formatted-string.ytd-search-filter-renderer {
+    --yt-primary-text-color : rgb(233, 168, 172) ; 
+    font-weight: 500;
 }
 yt-formatted-string#byline.style-scope.ytd-video-meta-block,
 div#metadata-line.style-scope.ytd-grid-video-renderer,
@@ -98,7 +109,7 @@ a.yt-simple-endpoint.style-scope.yt-formatted-string:only-child:visited{
 yt-formatted-string.style-scope.ytd-video-primary-info-renderer,
 a#video-title.yt-simple-endpoint.style-scope.ytd-video-renderer,
 span#video-title.ytd-playlist-video-renderer{
-    color:rgb(255, 184, 188); /*video nimi*/
+   color:rgb(248, 209, 212); /*video nimi*/
 }
 a.yt-simple-endpoint.style-scope.yt-formatted-string,
 yt-formatted-string.content.style-scope.ytd-channel-video-player-renderer{
