@@ -1,5 +1,5 @@
 
-Authors:Kertu Mikk, Kärt Nigols
+
 With this extension you can make your youtube experience more colorful.
 
 Red
@@ -16,4 +16,6 @@ Mint
 ![screenshot](images/MintScreen.JPG "screenshot")
 rose
 ![screenshot](images/roseScreen.JPG "screenshot")
+feather
+![screenshot](images/featherScreen.JPG "screenshot")
 Other themes will be added over time.
