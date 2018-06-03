@@ -210,8 +210,13 @@ a.yt-simple-endpoint.style-scope.yt-formatted-string:only-child{
 a.yt-simple-endpoint.style-scope.yt-formatted-string:only-child:visited{
     color: rgb(48, 44, 49);/*channel name on main page under videos*/
 }
-
-
+#guide-links-primary.ytd-guide-renderer > a,
+#guide-links-secondary.ytd-guide-renderer > a{ /*YT info (privacy and stuff) under guide */
+    color: rgb(48, 44, 49) !important;
+}
+#footer.ytd-guide-renderer > #copyright{
+    color: rgb(48, 44, 49) !important; /*YT copyright*/
+}
 
 
 
