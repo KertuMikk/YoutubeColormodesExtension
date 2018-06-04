@@ -1,5 +1,6 @@
 ytd-browse.style-scope.ytd-page-manager,
 #page-manager ,
+
 ytd-search.style-scope.ytd-page-manager,
 ytd-alert-renderer.style-scope.ytd-browse,
 ytd-two-column-browse-results-renderer.style-scope.ytd-browse,
@@ -38,7 +39,10 @@ ytd-playlist-sidebar-renderer.style-scope.ytd-browse{
     background: #415f71;/*playlist name background*/
 
 }
-
+ytd-app
+{
+    --yt-main-app-background:rgb(64, 124, 142);
+}
 
 
 /*notification extras*/
@@ -79,6 +83,19 @@ yt-formatted-string.ytd-menu-navigation-item-renderer,
 yt-formatted-string.ytd-menu-service-item-renderer{/*message options text*/
     color : #B4A0AC !important;
 }
+/*notification page*/
+.introduction-header.ytd-page-introduction-renderer, /*title*/
+.introduction-body.ytd-page-introduction-renderer, /*introduction**/
+.introduction-bullet-items.ytd-page-introduction-renderer li.ytd-page-introduction-renderer yt-formatted-string.ytd-page-introduction-renderer 
+/*points*/
+{
+    color : rgb(48, 44, 49) !important;
+}
+#message.ytd-message-renderer/*no messages*/
+{
+    color : rgb(48, 44, 49) !important;
+}
+
 
 
 
