@@ -1,6 +1,5 @@
 ytd-browse.style-scope.ytd-page-manager,
 #page-manager ,
-
 ytd-search.style-scope.ytd-page-manager,
 ytd-alert-renderer.style-scope.ytd-browse,
 ytd-two-column-browse-results-renderer.style-scope.ytd-browse,
@@ -18,7 +17,8 @@ ytd-two-column-browse-results-renderer.ytd-browse,
 #masthead{
     background: rgb(64, 124, 142);
 }
-#guide-inner-content{
+#guide-inner-content,
+#header.ytd-app{
     background: rgb(64, 124, 142);
 }
 
@@ -104,6 +104,12 @@ yt-formatted-string.ytd-menu-service-item-renderer{/*message options text*/
 ytd-conversation-section-renderer:not(.miniplayer){
     background: rgb(64, 124, 142); /*main background*/
 }
+#conversation-name.ytd-conversation-switcher-item-renderer{
+    color:rgb(48, 44, 49) !important;  /*convo name*/
+}
+h2.ytd-simple-menu-header-renderer{/*title*/
+    color:rgb(48, 44, 49) !important;
+}
 #title-bar.ytd-conversation-section-renderer{
     background: #415f71; /*title background and text*/
     --yt-primary-text-color: rgb(30, 27, 31);
@@ -116,7 +122,7 @@ ytd-conversation-link-item-renderer[justification-style="JUSTIFICATION_START"] #
 }
 #timestamp.ytd-conversation-text-item-renderer,
 #metadata.ytd-conversation-metadata-item-renderer{
-    --yt-placeholder-text-color:#B4A0AC;
+    --yt-placeholder-text-color:rgb(48, 44, 49);
 
 }
  
@@ -185,6 +191,7 @@ yt-formatted-string.style-scope.ytd-grid-renderer /*main page show more*/
     
 }
 #guide-icon.ytd-masthead, /*guide icon*/
+#guide-icon.ytd-app, /*guide icon*/
 path.style-scope.ytd-topbar-logo-renderer, /*YT name*/
 #country-code.ytd-topbar-logo-renderer /*country code*/{
     color:rgb(48, 44, 49) !important;
@@ -352,4 +359,7 @@ yt-formatted-string#subtitle.can-be-empty.style-scope.ytd-shelf-renderer{
 }
 ytd-grid-playlist-renderer.use-ellipsis #video-title.ytd-grid-playlist-renderer{
     color: rgb(48, 44, 49); /*playlist names*/
+}
+#description.ytd-channel-renderer{ /*channel description*/
+    color: rgb(48, 44, 49) !important;
 }

@@ -6,8 +6,7 @@ Red
 ![screenshot](images/redScreen.JPG "screenshot")
 Pastel
 ![screenshot](images/pastelScreen.JPG "screenshot")
-Rainbow
-![screenshot](images/rainbowScreen.JPG "screenshot")
+
 Navi
 ![screenshot](images/NavySC.JPG "screenshot")
 Grayscale
