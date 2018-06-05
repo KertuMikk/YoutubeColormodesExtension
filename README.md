@@ -18,3 +18,4 @@ rose
 feather
 ![screenshot](images/featherScreen.JPG "screenshot")
 Other themes will be added over time.
+(Icons in popup/options page are from https://www.design-seeds.com/by-collection/)
