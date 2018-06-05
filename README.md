@@ -7,7 +7,7 @@ Red
 Pastel
 ![screenshot](images/pastelScreen.JPG "screenshot")
 
-Navi
+Navy
 ![screenshot](images/NavySC.JPG "screenshot")
 Grayscale
 ![screenshot](images/graySc.JPG "screenshot")
