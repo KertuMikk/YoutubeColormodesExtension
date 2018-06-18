@@ -44,7 +44,9 @@ ytd-app
 {
     --yt-main-app-background:rgb(0, 0, 0);
 }
-
+.toggle-button.paper-toggle-button{ /*toggle button*/
+    background: rgb(32, 32, 83) !important;
+}
 
 /*notification extras*/
 div#header.ytd-multi-page-menu-renderer{
@@ -250,6 +252,18 @@ a.yt-simple-endpoint.style-scope.yt-formatted-string:only-child:visited{
 
 
 /*video play colors*/
+.index-message.ytd-playlist-panel-renderer, /*playlist video count*/
+.publisher.ytd-playlist-panel-renderer:not(:empty) + .index-message.ytd-playlist-panel-renderer::before, /*little line next to count*/
+#video-title.ytd-playlist-panel-video-renderer /*video name in playlist*/
+{ 
+    color: rgb(93, 96, 138) !important;
+}
+#byline.ytd-playlist-panel-video-renderer, /*channel name in playlist*/
+.content-text.ytd-metadata-with-image-row-renderer:not(:first-child), /*game release date under video*/
+.content-text.ytd-metadata-with-image-row-renderer:not(:first-child), /*avastage youtube gamingus*/
+.content-text.ytd-metadata-with-image-row-renderer:first-child { /*game name under video*/
+    color: rgb(72, 100, 156) !important;
+}
 yt-formatted-string.style-scope.ytd-video-primary-info-renderer,
 a#video-title.yt-simple-endpoint.style-scope.ytd-video-renderer,
 span#video-title.ytd-playlist-video-renderer{
