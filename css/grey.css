@@ -249,6 +249,30 @@ a.yt-simple-endpoint.style-scope.yt-formatted-string:only-child:visited{
 
 
 /*video play colors*/
+#like-bar.ytd-sentiment-bar-renderer /*like bar on video play screen*/{
+    background-color: rgb(155, 155, 155)!important;
+}
+html:not([style-scope]):not(.style-scope){
+    --yt-notification-button-bubble_-_background-color:#ff0000 !important;
+}
+ytd-button-renderer.style-primary[is-paper-button]{ /*buttons color**/
+    background-color: #000000 !important;
+}
+#author-comment-badge.ytd-comment-renderer,
+#name.ytd-author-comment-badge-renderer,
+ytd-author-comment-badge-renderer{ /*video autori nimi tema kommentaari juures*/
+    --ytd-author-comment-badge-background-color: rgb(196, 195, 195)!important;
+    --ytd-author-comment-badge-name-color: rgb(94, 94, 94)!important;
+    --ytd-author-comment-badge-icon-color: rgb(94, 94, 94)!important;
+    
+}
+ytd-author-comment-badge-renderer[icon-type="CHECK"].creator #icon.ytd-author-comment-badge-renderer { /*video autori kommentaari juures linnuke*/
+    stroke: rgb(94, 94, 94)!important;
+    stroke-width: 2pt;
+    height: 10px;
+    width: 10px;
+}
+
 .index-message.ytd-playlist-panel-renderer, /*playlist video count*/
 .publisher.ytd-playlist-panel-renderer:not(:empty) + .index-message.ytd-playlist-panel-renderer::before, /*little line next to count*/
 #video-title.ytd-playlist-panel-video-renderer, /*video name in playlist*/
@@ -293,9 +317,9 @@ span#video-title.style-scope.ytd-compact-radio-renderer{
 }
 
 
-yt-formatted-string.count-text.style-scope.ytd-comments-header-renderer,
+yt-formatted-string.count-text.style-scope.ytd-comments-header-renderer
 {
-    color:rgb(117, 117, 117);/*comment count*/
+    color:rgb(117, 117, 117)!important;/*comment count*/
 }
 div#icon-label.style-scope.yt-dropdown-menu, /*icon*/
 yt-icon.style-scope.ytd-button-renderer, /*icon*/
