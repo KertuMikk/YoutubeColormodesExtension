@@ -38,19 +38,19 @@ ytd-two-column-browse-results-renderer.ytd-browse,
     }
 
 #masthead{
-    background: rgb(26, 25, 25); 
+    background: rgb(0,27,30); 
 }
 #guide-inner-content,
 #header.ytd-app{
-    background: rgb(26, 25, 25); }
+    background: rgb(0,27,30); }
     .badge-style-type-simple.ytd-badge-supported-renderer/*subtitles badge*/
 {
-    --ytd-badge-background: rgb(105, 105, 105);
-    --ytd-simple-badge-color:rgb(0, 0, 0);
+    --ytd-badge-background: rgb(177, 16, 4);
+    --ytd-simple-badge-color:rgb(201, 201, 201);
 }
 
 #search-form > #container{ /*searchbox*/
-    background: rgb(0, 0, 0); 
+    background: rgb(0, 54, 59); 
 }
 input#search
 { /*searchbox text*/
@@ -64,18 +64,18 @@ ytd-searchbox[mode=legacy-centered] #container.ytd-searchbox
     --ytd-searchbox-legacy-border-color:rgba(255, 255, 255, 0);
 }
 button#search-icon-legacy.style-scope.ytd-searchbox{/*search button*/
-    background-color: rgb(0, 0, 0); 
-    --ytd-searchbox-legacy-button-color : rgb(0, 0, 0); 
+    background-color: rgb(1, 100, 109);  
+    --ytd-searchbox-legacy-button-color :rgb(1, 100, 109); 
 }
 
 ytd-playlist-sidebar-renderer.style-scope.ytd-browse{
-    background:rgb(32, 32, 32); 
+    background:rgb(0,27,30); 
     /*playlist name background*/
 
 }
 ytd-app
 {
-    --yt-main-app-background:rgb(32, 32, 32);
+    --yt-main-app-background:rgb(0,27,30);
 }
 .toggle-button.paper-toggle-button{ /*toggle button*/
     background: rgb(196, 195, 195) !important;
@@ -83,14 +83,14 @@ ytd-app
 
 /*notification extras*/
 div#header.ytd-multi-page-menu-renderer{
-    background: rgb(32, 32, 32);/*notification upper*/
-    --yt-simple-menu-header-background: rgb(104, 1, 30);
+    background: rgb(0,27,30);/*notification upper*/
+    --yt-simple-menu-header-background: rgb(0,27,30);
    }
 div#container.menu-container.ytd-multi-page-menu-renderer{
-    background: rgb(26, 25, 25);/*notification lower*/
+    background: rgb(0, 54, 59);/*notification lower*/
 }
 ytd-multi-page-menu-renderer[menu-style="multi-page-menu-style-type-conversations"]{
-    background: rgb(26, 25, 25); /*messages background*/
+    background: rgb(0,27,30); /*messages background*/
 } 
 h2.ytd-simple-menu-header-renderer,
 {/*notification title*/
@@ -113,7 +113,7 @@ paper-item.ytd-compact-link-renderer,
 }
 paper-listbox{/*message options background*/
     
-    --paper-listbox-background-color:rgb(26, 25, 25);
+    --paper-listbox-background-color:rgb(0, 54, 59);
    
 }
 yt-formatted-string.ytd-menu-navigation-item-renderer,
@@ -139,7 +139,7 @@ yt-formatted-string.ytd-menu-service-item-renderer{/*message options text*/
 /*Messages*/
 
 ytd-conversation-section-renderer:not(.miniplayer){
-    background: rgb(26, 25, 25); /*main background*/
+    background: rgb(0,27,30); /*main background*/
 }
 #conversation-name.ytd-conversation-switcher-item-renderer{
     color:rgb(196, 195, 195) !important;  /*convo name*/
@@ -148,13 +148,13 @@ h2.ytd-simple-menu-header-renderer{/*title*/
     color:rgb(196, 195, 195) !important;
 }
 #title-bar.ytd-conversation-section-renderer{
-    background: rgb(32, 32, 32); /*title background and text*/
+    background: rgb(0, 54, 59); /*title background and text*/
     --yt-primary-text-color: rgb(196, 195, 195); 
 }
 ytd-conversation-text-item-renderer[justification-style="JUSTIFICATION_START"] #post-text.ytd-conversation-text-item-renderer,
 ytd-conversation-link-item-renderer[justification-style="JUSTIFICATION_START"] #link.ytd-conversation-link-item-renderer{
     --yt-chat-bubble-other-border-color:rgb(128, 128, 128); /*chat bubble background and text*/
-    --yt-chat-bubble-other-background-color:rgb(26, 25, 25);
+    --yt-chat-bubble-other-background-color:rgb(0, 54, 59);
     --yt-primary-text-color:rgb(196, 195, 195);
 }
 #timestamp.ytd-conversation-text-item-renderer,
@@ -213,7 +213,7 @@ div#stats.style-scope.ytd-playlist-sidebar-primary-info-renderer{
 }
 div#container.INFO.style-scope.ytd-alert-renderer,
 yt-formatted-string.style-scope.ytd-alert-renderer{
-    background : rgb(66, 66, 66);
+    background : rgb(177, 16, 4);
     color:rgb(196, 195, 195); /*playlist alert*/
 }
 
@@ -231,12 +231,12 @@ yt-formatted-string.style-scope.ytd-grid-renderer /*main page show more*/
 #guide-icon.ytd-app, /*guide icon*/
 path.style-scope.ytd-topbar-logo-renderer, /*YT name*/
 #country-code.ytd-topbar-logo-renderer /*country code*/{
-    color:rgb(196, 195, 195) !important;
-    fill:rgb(196, 195, 195) !important;
+    color:rgb(177, 16, 4) !important;
+    fill:rgb(177, 16, 4) !important;
 }
 
 paper-button.style-scope.ytd-subscribe-button-renderer {
-    background-color: rgb(0, 0, 0) !important ; 
+    background-color: rgb(177, 16, 4) !important ; 
     color: rgb(196, 195, 195);/*subscribe buttons background*/
 }   
 yt-formatted-string.style-scope.ytd-subscribe-button-renderer,
@@ -288,10 +288,10 @@ a.yt-simple-endpoint.style-scope.yt-formatted-string:only-child:visited{
     background-color: rgb(155, 155, 155)!important;
 }
 html:not([style-scope]):not(.style-scope){
-    --yt-notification-button-bubble_-_background-color:#ff0000 !important;
+    --yt-notification-button-bubble_-_background-color:rgb(177, 16, 4) !important;
 }
 ytd-button-renderer.style-primary[is-paper-button]{ /*buttons color**/
-    background-color: #000000 !important;
+    background-color: rgb(177, 16, 4) !important;
 }
 #author-comment-badge.ytd-comment-renderer,
 #name.ytd-author-comment-badge-renderer,
@@ -369,7 +369,7 @@ h4#title.style-scope.ytd-metadata-row-renderer,
 yt-formatted-string.more-button.style-scope.ytd-video-secondary-info-renderer,
 g.style-scope.yt-icon
 {
-    color:rgb(150, 150, 150);/*comment sort,
+    color:rgb(177, 16, 4);/*comment sort,
      icons,
      show more,
      comment button text,
@@ -402,7 +402,7 @@ yt-formatted-string#content-text.style-scope.ytd-comment-renderer{
 /*channel page */
 div#channel-container.style-scope.ytd-c4-tabbed-header-renderer,
 div#tabs-inner-container.style-scope.ytd-c4-tabbed-header-renderer{
-    background:rgb(32, 32, 32);    /*channel name container*/
+    background:rgb(0,27,30);    /*channel name container*/
 }
 
 ytd-c4-tabbed-header-renderer {
