@@ -3,7 +3,8 @@ ytd-browse.style-scope.ytd-page-manager,
 ytd-search.style-scope.ytd-page-manager,
 ytd-alert-renderer.style-scope.ytd-browse,
 ytd-two-column-browse-results-renderer.style-scope.ytd-browse,
-ytd-watch.style-scope.ytd-page-manager.hide-skeleton {
+ytd-watch.style-scope.ytd-page-manager.hide-skeleton,
+ytd-watch-flexy.style-scope.ytd-page-manager.hide-skeleton {
     background: linear-gradient(to right,rgb(84,25,25),rgb(105,83,80),rgb(146,198,189)); 
 } /*all main backgrounds*/
 div#contents.style-scope.ytd-item-section-renderer,
@@ -13,6 +14,7 @@ ytd-two-column-browse-results-renderer.ytd-browse,
     background:rgba(255, 255, 255, 0);
     background-color:rgba(255, 255, 255, 0);
     --yt-app-background : rgba(255,255,255,0);
+    --yt-main-app-background-tmp: rgba(255,255,255,0);
     }
 #masthead{
     background: rgb(84,25,25); 
@@ -250,7 +252,7 @@ a.yt-simple-endpoint.style-scope.yt-formatted-string:only-child:visited{
 
 /*video play colors*/
 #like-bar.ytd-sentiment-bar-renderer /*like bar on video play screen*/{
-    background-color: rgb(119, 165, 163))!important;
+    background-color: rgb(119, 165, 163)!important;
 }
 html:not([style-scope]):not(.style-scope){
     --yt-notification-button-bubble_-_background-color:rgb(0, 255, 242) !important;
