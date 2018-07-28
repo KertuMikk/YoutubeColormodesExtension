@@ -1,7 +1,7 @@
 
 'use strict'
 
-const kButtonTheme = ['pastel', 'red', 'navy', 'grey', 'Mint', 'rose', 'feather']
+const kButtonTheme = ['pastel', 'red', 'navy', 'grey', 'Mint', 'rose', 'feather', 'fox']
 
 function constructOptions (kButtonTheme) {
   for (let item of kButtonTheme) {
@@ -9,22 +9,16 @@ function constructOptions (kButtonTheme) {
     button.style.height = 150 + 'px'
     button.style.width = 150 + 'px'
     button.style.backgroundImage = "url('https://raw.githubusercontent.com/KertuMikk/YoutubeColormodesExtension/master/images/" + item + "BIG.png')"
-    let name = document.createElement('p') /* COMMENT OUT FROM LET NAME TO ELEMENT.APPEND.. TO MOVE COLOR SELECTION TO OPTIONS  */
+    let name = document.createElement('p')
     let node = document.createTextNode(item)
     name.appendChild(node)
-    // let element = document.getElementById('buttonDiv')
-    // element.appendChild(name)
-    /* button.addEventListener('click', function () {
-      chrome.storage.sync.set({color: "url('https://raw.githubusercontent.com/KertuMikk/YoutubeColormodesExtension/master/images/" + item + ".png')", item: item}, function () {
-        console.log('color is ' + item)
-      })                             UNCOMMENT TO MOVE COLOR SELECTION TO OPTIONS */
-    /* } /*) */
+
     let divB = document.createElement('div')
     divB.id = item
     divB.appendChild(button)
     divB.appendChild(name)
     document.getElementsByTagName('body')[0].appendChild(divB)
-  } /* COMMENT OUT TO MOVE COLOR SELECTION TO OPTIONS */
+  }
 }
 function placement () {
   let counter = 1

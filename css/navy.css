@@ -7,10 +7,29 @@ ytd-watch.style-scope.ytd-page-manager.hide-skeleton,
 ytd-watch-flexy.style-scope.ytd-page-manager.hide-skeleton {
     background: linear-gradient(to right,black,#1c2338,#1c2746,#1d294d); 
 } /*all main backgrounds*/
+#contents.ytd-section-list-renderer > *.ytd-section-list-renderer:not(:last-child):not(ytd-page-introduction-renderer), /*bottom lines that come with light theme*/
+#guide-links-primary.ytd-guide-renderer,
+#sections.ytd-guide-renderer > *.ytd-guide-renderer:not(:last-child),
+#sections.ytd-multi-page-menu-renderer > *.ytd-multi-page-menu-renderer:not(:last-child),
+#title.ytd-sub-feed-selector-renderer,
+ytd-sub-feed-option-renderer.ytd-sub-feed-selector-renderer,
+ytd-video-primary-info-renderer,
+ytd-compact-autoplay-renderer,
+ytd-video-secondary-info-renderer,
+#placeholder-area.ytd-comment-simplebox-renderer,
+#items.ytd-playlist-sidebar-renderer > *.ytd-playlist-sidebar-renderer:not(:last-child),
+#content.ytd-playlist-video-renderer,
+#contents.ytd-browse-secondary-contents-renderer > *.ytd-browse-secondary-contents-renderer:not(:first-child),
+ytd-conversation-switcher-item-renderer
+{
+    
+    --yt-border-color:rgba(255, 255, 255, 0);
+}
 div#contents.style-scope.ytd-item-section-renderer,
 ytd-two-column-browse-results-renderer.style-scope.ytd-browse,
 ytd-two-column-browse-results-renderer.ytd-browse,
-#top > #container{
+#top > #container,
+#columns.ytd-watch-flexy{
     background:rgba(255, 255, 255, 0);
     background-color:rgba(255, 255, 255, 0);
     --yt-app-background : rgba(255,255,255,0);
@@ -23,6 +42,11 @@ ytd-two-column-browse-results-renderer.ytd-browse,
 #header.ytd-app{
     background: linear-gradient(to bottom, black,#1c2338,#1c2746,#1d294d); 
 }
+.badge-style-type-simple.ytd-badge-supported-renderer/*subtitles badge*/
+{
+    --ytd-badge-background: rgb(94, 66, 194);
+    --ytd-simple-badge-color:rgb(172, 167, 243);
+}
 
 #search-form > #container{ /*searchbox*/
     background:rgb(32, 32, 83);
@@ -31,6 +55,12 @@ input#search
 { /*searchbox text*/
     color : rgb(186, 184, 214) !important;
    
+}
+ytd-searchbox[mode=legacy] #container.ytd-searchbox, /*searchbox border on light mode*/
+ytd-searchbox[mode=legacy-centered] #container.ytd-searchbox
+{
+    --ytd-searchbox-legacy-border-shadow-color:rgba(255, 255, 255, 0);
+    --ytd-searchbox-legacy-border-color:rgba(255, 255, 255, 0);
 }
 button#search-icon-legacy.style-scope.ytd-searchbox{/*search button*/
     background-color: rgb(32, 32, 83);
@@ -52,6 +82,7 @@ ytd-app
 
 /*notification extras*/
 div#header.ytd-multi-page-menu-renderer{
+    --yt-simple-menu-header-background: rgb(104, 1, 30);
     background: #1d294d;
 }/*notification upper*/
    
