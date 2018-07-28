@@ -287,8 +287,8 @@ a.yt-simple-endpoint.style-scope.yt-formatted-string:only-child:visited{
 #like-bar.ytd-sentiment-bar-renderer /*like bar on video play screen*/{
     background-color: rgb(155, 155, 155)!important;
 }
-html:not([style-scope]):not(.style-scope){
-    --yt-notification-button-bubble_-_background-color:rgb(177, 16, 4) !important;
+html:not([style-scope]):not(.style-scope){ /*notification bubble*/ 
+    --yt-notification-button-bubble_-_background-color:rgb(1,100,109) !important;
 }
 ytd-button-renderer.style-primary[is-paper-button]{ /*buttons color**/
     background-color: rgb(177, 16, 4) !important;
