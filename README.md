@@ -19,4 +19,4 @@ feather
 fox
 ![screenshot](images/foxScreen.JPG "screenshot")
 Other themes will be added over time.
-(Icons in popup/options page are from https://www.design-seeds.com/by-collection/)
+(Icons in popup/options page are mostly from https://www.design-seeds.com/by-collection/)
