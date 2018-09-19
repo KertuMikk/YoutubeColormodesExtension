@@ -221,10 +221,7 @@ button#search-icon-legacy.style-scope.ytd-searchbox{/*search button*/
     background:#eba2eb !important;
     border:1px solid rgb(255, 0, 212) !important;
 }
-a.yt-simple-endpoint.ytd-button-renderer/*show trailer button on game screen*/
-{
-    background: #b95fb9 !important;
-}
+
 ytd-toggle-button-renderer #button.ytd-toggle-button-renderer /*lisa meeldetuletus button*/
 {
     background: #b95fb9 !important;
