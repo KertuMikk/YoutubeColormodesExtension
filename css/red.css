@@ -62,10 +62,7 @@ ytd-searchbox[mode=legacy-centered] #container.ytd-searchbox
     --ytd-searchbox-legacy-border-shadow-color:rgba(255, 255, 255, 0);
     --ytd-searchbox-legacy-border-color:rgba(255, 255, 255, 0);
 }
-button#search-icon-legacy.style-scope.ytd-searchbox{/*search button*/
-    background-color: rgb(110, 0, 33);
-    --ytd-searchbox-legacy-button-color : rgb(110, 0, 33);
-}
+
 
 ytd-playlist-sidebar-renderer.style-scope.ytd-browse{
     background: rgb(32, 0, 9);/*playlist name background*/
@@ -74,9 +71,6 @@ ytd-playlist-sidebar-renderer.style-scope.ytd-browse{
 ytd-app
 {
     --yt-main-app-background:rgb(58, 0, 17);
-}
-.toggle-button.paper-toggle-button{ /*toggle button*/
-    background: rgb(197, 39, 49) !important;
 }
 
 /*notification extras*/
@@ -200,6 +194,44 @@ div#onRadio.style-scope.paper-radio-button{
 
 
 
+/* BUTTONS*/
+paper-button.style-scope.ytd-subscribe-button-renderer {
+    background-color: rgb(197, 2, 51) !important ; 
+    color: rgb(34, 30, 32);/*subscribe buttons background*/
+}   
+yt-formatted-string.style-scope.ytd-subscribe-button-renderer,
+span.deemphasize.style-scope.yt-formatted-string{
+    color: rgb(219, 159, 169); /*subscribe buttons text*/
+}
+html:not([style-scope]):not(.style-scope){ /*notification bubble*/
+    --yt-notification-button-bubble_-_background-color:#c50233 !important;
+}
+ytd-button-renderer.style-primary[is-paper-button]{ /*buttons color**/
+    background-color: #c50233 !important;
+}
+button#search-icon-legacy.style-scope.ytd-searchbox{/*search button*/
+    background-color: rgb(110, 0, 33);
+    --ytd-searchbox-legacy-button-color : rgb(110, 0, 33);
+}
+.toggle-button.paper-toggle-button{ /*toggle button*/
+    background: rgb(197, 39, 49) !important;
+}
+.badge-style-type-live-now.ytd-badge-supported-renderer /*livestream stamp*/
+{
+    background:#c50233 !important;
+    border:1px solid rgb(247, 0, 0) !important;
+}
+a.yt-simple-endpoint.ytd-button-renderer/*show trailer button on game screen*/
+{
+    background: #860122 !important;
+}
+ytd-toggle-button-renderer #button.ytd-toggle-button-renderer /*lisa meeldetuletus button*/
+{
+    background: #7e0120 !important;
+}
+
+
+
 /* playlist extras*/
 yt-formatted-string#index.style-scope.ytd-playlist-video-renderer
 {
@@ -233,20 +265,16 @@ path.style-scope.ytd-topbar-logo-renderer, /*YT name*/
     fill: rgb(219, 159, 169) !important;
 }
 
-paper-button.style-scope.ytd-subscribe-button-renderer {
-    background-color: rgb(197, 2, 51) !important ; 
-    color: rgb(34, 30, 32);/*subscribe buttons background*/
-}   
-yt-formatted-string.style-scope.ytd-subscribe-button-renderer,
-span.deemphasize.style-scope.yt-formatted-string{
-    color: rgb(219, 159, 169); /*subscribe buttons text*/
-}
+
 span#title.style-scope.ytd-shelf-renderer,
 yt-formatted-string#result-count.style-scope.ytd-search-sub-menu-renderer,
 div.text.ytd-notification-renderer,
-yt-formatted-string#title-annotation.style-scope.ytd-shelf-renderer
+yt-formatted-string#title-annotation.style-scope.ytd-shelf-renderer,/*big titles and text beside that*/
+#title.ytd-topic-channel-details-renderer,/*game browser big title*/
+ytd-rich-list-header-renderer[title-style="TITLE_STYLE_TYPE_CHANNEL_INLINE_RECS"] #title.ytd-rich-list-header-renderer, /*big tittles under the biggest one*/
+#title.ytd-game-details-renderer /*game browse most popular game names*/
 {
-    color:rgb(212, 0, 71); /*big titles and text beside that*/
+    color:rgb(212, 0, 71) !important; 
 }
 h3.style-scope.ytd-grid-radio-renderer,
 a#video-title.yt-simple-endpoint.style-scope.ytd-grid-video-renderer,
@@ -263,11 +291,14 @@ span.style-scope.ytd-video-meta-block,
 a.yt-simple-endpoint.yt-formatted-string:visited,
 a.yt-simple-endpoint.style-scope.yt-formatted-string:visited,
 span.style-scope.ytd-badge-supported-renderer,
-a.yt-simple-endpoint.style-scope.yt-formatted-string:only-child{
-    color:rgb(235, 164, 179); /*my mixes metadata,info about video*/
+a.yt-simple-endpoint.style-scope.yt-formatted-string:only-child, /*my mixes metadata,info about video*/
+#subtitle.ytd-rich-list-header-renderer,/*game browser text under most popular*/
+#live-viewers-count.ytd-game-details-renderer/*game browse watchers under game*/{
+    color:rgb(235, 164, 179) !important;
 }
-a.yt-simple-endpoint.style-scope.yt-formatted-string:only-child:visited{
-    color:rgb(235, 164, 179);/*channel name on main page under videos*/
+a.yt-simple-endpoint.style-scope.yt-formatted-string:only-child:visited,
+yt-formatted-string[has-link-only_]:not([force-default-style]) a.yt-simple-endpoint.yt-formatted-string{
+    color:rgb(235, 164, 179) !important;/*channel name on main page under videos*/
 }
 #guide-links-primary.ytd-guide-renderer > a,
 #guide-links-secondary.ytd-guide-renderer > a{ /*YT info (privacy and stuff) under guide */
@@ -285,12 +316,7 @@ a.yt-simple-endpoint.style-scope.yt-formatted-string:only-child:visited{
 #like-bar.ytd-sentiment-bar-renderer /*like bar on video play screen*/{
     background-color: rgb(235, 164, 179) !important;
 }
-html:not([style-scope]):not(.style-scope){
-    --yt-notification-button-bubble_-_background-color:#c50233 !important;
-}
-ytd-button-renderer.style-primary[is-paper-button]{ /*buttons color**/
-    background-color: #c50233 !important;
-}
+
 #author-comment-badge.ytd-comment-renderer,
 #name.ytd-author-comment-badge-renderer,
 ytd-author-comment-badge-renderer{ /*video autori nimi tema kommentaari juures*/
@@ -397,8 +423,12 @@ yt-formatted-string#content-text.style-scope.ytd-comment-renderer{
 
 /*channel page */
 div#channel-container.style-scope.ytd-c4-tabbed-header-renderer,
-div#tabs-inner-container.style-scope.ytd-c4-tabbed-header-renderer{
+div#tabs-inner-container.style-scope.ytd-c4-tabbed-header-renderer,
+paper-tabs.ytd-interactive-tabbed-header-renderer, /*game page small container*/
+#channel-details.ytd-gaming-destination-header-renderer,/*game browser header container*/
+#tabs-inner-container.ytd-interactive-tabbed-header-renderer/*game page small container*/{
     background:rgb(110, 0, 33);    /*channel name container*/
+    --yt-channel-header-background:rgb(110, 0, 33);
 }
 
 ytd-c4-tabbed-header-renderer {
