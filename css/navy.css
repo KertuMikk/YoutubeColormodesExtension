@@ -222,9 +222,10 @@ button#search-icon-legacy.style-scope.ytd-searchbox{/*search button*/
     border:1px solid rgb(38, 0, 255) !important;
 }
 
-ytd-toggle-button-renderer #button.ytd-toggle-button-renderer /*lisa meeldetuletus button*/
+ytd-toggle-button-renderer #button.ytd-toggle-button-renderer /*lisa meeldetuletus button tekst*/
 {
-    background: rgb(32, 32, 83) !important;
+    --yt-button-color: rgb(32, 32, 83) !important;
+    background:#38317e !important;
 }
 
 /* playlist extras*/
@@ -267,7 +268,8 @@ div.text.ytd-notification-renderer,
 yt-formatted-string#title-annotation.style-scope.ytd-shelf-renderer,/*big titles and text beside that*/
 #title.ytd-topic-channel-details-renderer,/*game browser big title*/
 ytd-rich-list-header-renderer[title-style="TITLE_STYLE_TYPE_CHANNEL_INLINE_RECS"] #title.ytd-rich-list-header-renderer, /*big tittles under the biggest one*/
-#title.ytd-game-details-renderer /*game browse most popular game names*/
+#title.ytd-game-details-renderer , /*game browse most popular game names*/
+#title.ytd-sort-filter-header-renderer /*game browser recommended*/
 {
     color:rgb(93, 96, 138) !important; 
 }
@@ -283,16 +285,17 @@ span#title.style-scope.ytd-grid-channel-renderer,
 yt-formatted-string#byline.style-scope.ytd-video-meta-block,
 div#metadata-line.style-scope.ytd-grid-video-renderer,
 span.style-scope.ytd-video-meta-block,
-a.yt-simple-endpoint.yt-formatted-string:visited,
-a.yt-simple-endpoint.style-scope.yt-formatted-string:visited,
+a.yt-simple-endpoint.yt-formatted-string,
+a.yt-simple-endpoint.style-scope.yt-formatted-string,
 span.style-scope.ytd-badge-supported-renderer,
 a.yt-simple-endpoint.style-scope.yt-formatted-string:only-child,/*my mixes metadata,info about video*/
 #subtitle.ytd-rich-list-header-renderer,/*game browser text under most popular*/
-#live-viewers-count.ytd-game-details-renderer/*game browse watchers under game*/
+#live-viewers-count.ytd-game-details-renderer,/*game browse watchers under game*/
+#subtitle.ytd-sort-filter-header-renderer/*game browser text under recommended*/
 {
     color: rgb(72, 100, 156) !important; 
 }
-a.yt-simple-endpoint.style-scope.yt-formatted-string:only-child:visited,
+a.yt-simple-endpoint.style-scope.yt-formatted-string:only-child,
 yt-formatted-string[has-link-only_]:not([force-default-style]) a.yt-simple-endpoint.yt-formatted-string{
     color: rgb(103, 123, 161) !important;/*channel name on main page under videos*/
 }
@@ -315,10 +318,12 @@ yt-formatted-string[has-link-only_]:not([force-default-style]) a.yt-simple-endpo
 
 #author-comment-badge.ytd-comment-renderer,
 #name.ytd-author-comment-badge-renderer,
+.content.ytd-video-secondary-info-renderer,/*viited video autori all*/
 ytd-author-comment-badge-renderer{ /*video autori nimi tema kommentaari juures*/
     --ytd-author-comment-badge-background-color: #3b3b71!important;
     --ytd-author-comment-badge-name-color: rgb(98, 133, 204)!important;
     --ytd-author-comment-badge-icon-color: rgb(98, 133, 204)!important;
+    --yt-primary-text-color: rgb(98, 133, 204)!important;
     
 }
 ytd-author-comment-badge-renderer[icon-type="CHECK"].creator #icon.ytd-author-comment-badge-renderer { /*video autori kommentaari juures linnuke*/
