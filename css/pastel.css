@@ -78,7 +78,7 @@ ytd-app
 /*notification extras*/
 div#header.ytd-multi-page-menu-renderer{
     background: rgb(221, 165, 247);/*notification upper*/
-    --yt-simple-menu-header-background: rgb(104, 1, 30);
+    --yt-simple-menu-header-background: rgb(221, 165, 247);
    }
 div#container.menu-container.ytd-multi-page-menu-renderer{
 background: rgb(142, 168, 255);/*notification lower*/
