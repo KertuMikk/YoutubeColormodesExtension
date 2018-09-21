@@ -221,7 +221,7 @@ button#search-icon-legacy.style-scope.ytd-searchbox{/*search button*/
     border:1px solid #ff0000 !important;
 }
 
-ytd-toggle-button-renderer #button.ytd-toggle-button-renderer/*lisa meeldetuletus button tekst*/
+paper-button#button.style-scope.ytd-toggle-button-renderer.style-compact-gray/*lisa meeldetuletus button tekst*/
 {
     --yt-button-color: rgb(189, 186, 186) !important;
     background:rgb(71, 71, 71) !important;
