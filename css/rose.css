@@ -25,6 +25,10 @@ ytd-conversation-switcher-item-renderer
     
     --yt-border-color:rgba(255, 255, 255, 0);
 }
+ytd-two-column-browse-results-renderer[page-subtype="history"] #secondary.ytd-two-column-browse-results-renderer /*history settings background*/
+{
+   background: rgb(17, 23, 41) !important;
+}
 div#contents.style-scope.ytd-item-section-renderer,
 ytd-two-column-browse-results-renderer.style-scope.ytd-browse,
 ytd-two-column-browse-results-renderer.ytd-browse,
@@ -176,7 +180,8 @@ ytd-conversation-link-item-renderer[justification-style="JUSTIFICATION_START"] #
 label#paper-input-label-1.style-scope.paper-input, /*input label*/
 input#input.style-scope.paper-input, /*history search*/
 h2#title.style-scope.ytd-sub-feed-selector-renderer, /*history search attributes*/
-yt-formatted-string.style-scope.ytd-sub-feed-option-renderer
+yt-formatted-string.style-scope.ytd-sub-feed-option-renderer,
+ytd-text-header-renderer[header-style='text-header-renderer-style-bold'] /*history title on top*/
 {
     color:rgb(253, 183, 187) !important;
 }
@@ -199,6 +204,9 @@ div#onRadio.style-scope.paper-radio-button{
 
 
  /* BUTTONS*/
+
+
+
 paper-button.style-scope.ytd-subscribe-button-renderer {
     background-color: rgb(238, 169, 172) !important ; 
     color: rgb(238, 169, 172);/*subscribe buttons background*/
@@ -303,9 +311,10 @@ a.yt-simple-endpoint.style-scope.yt-formatted-string:only-child, /*my mixes meta
 {
     color:rgb(255, 189, 193) !important; 
 }
-a.yt-simple-endpoint.style-scope.yt-formatted-string:only-child,
-yt-formatted-string[has-link-only_]:not([force-default-style]) a.yt-simple-endpoint.yt-formatted-string{
-    color: rgb(255, 189, 193) !important;/*channel name on main page under videos*/
+a.yt-simple-endpoint.style-scope.yt-formatted-string:only-child,/*channel name on main page under videos*/
+yt-formatted-string[has-link-only_]:not([force-default-style]) a.yt-simple-endpoint.yt-formatted-string,/*left side menu KOGU */
+#guide-section-title.ytd-guide-section-renderer /* guide section name color*/{
+    color: rgb(255, 189, 193) !important;
 }
 #guide-links-primary.ytd-guide-renderer > a,
 #guide-links-secondary.ytd-guide-renderer > a{ /*YT info (privacy and stuff) under guide */
@@ -439,7 +448,7 @@ div#tabs-inner-container.style-scope.ytd-c4-tabbed-header-renderer,
 paper-tabs.ytd-interactive-tabbed-header-renderer, /*game page small container*/
 #channel-details.ytd-gaming-destination-header-renderer,/*game browser header container*/
 #tabs-inner-container.ytd-interactive-tabbed-header-renderer/*game page small container*/{
-    background: linear-gradient(to left, rgb(17, 23, 41) , rgb(173, 123, 126));
+    background: linear-gradient(to left, rgb(17, 23, 41) , rgb(173, 123, 126)) !important;
     /*channel name container*/
     --yt-channel-header-background:linear-gradient(to left, rgb(17, 23, 41) , rgb(173, 123, 126));
 }
@@ -451,8 +460,10 @@ ytd-c4-tabbed-header-renderer {
 span#channel-title.style-scope.ytd-c4-tabbed-header-renderer{
     color: rgb(17, 23, 41); /*channel name*/
 }
-yt-formatted-string#subscriber-count.style-scope.ytd-c4-tabbed-header-renderer{
-    color: rgb(32, 43, 77); /*supscriber count*/
+yt-formatted-string#subscriber-count.style-scope.ytd-c4-tabbed-header-renderer,/*subscriber count*/
+#subtitle.ytd-topic-channel-details-renderer, /*subscriber count on game page*/
+#title.ytd-channel-list-sub-menu-avatar-renderer/*text under bigger buttons on trending page*/{
+    color: rgb(32, 43, 77) !important; 
 }
 div.tab-content.style-scope.paper-tab{
     color: rgb(32, 43, 77); /*navi nupud*/

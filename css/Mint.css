@@ -25,6 +25,10 @@ ytd-conversation-switcher-item-renderer
     
     --yt-border-color:rgba(255, 255, 255, 0);
 }
+ytd-two-column-browse-results-renderer[page-subtype="history"] #secondary.ytd-two-column-browse-results-renderer /*history settings background*/
+{
+   background: rgb(84,25,25) !important;
+}
 div#contents.style-scope.ytd-item-section-renderer,
 ytd-two-column-browse-results-renderer.style-scope.ytd-browse,
 ytd-two-column-browse-results-renderer.ytd-browse,
@@ -170,10 +174,11 @@ ytd-conversation-link-item-renderer[justification-style="JUSTIFICATION_START"] #
 label#paper-input-label-1.style-scope.paper-input, /*input label*/
 input#input.style-scope.paper-input, /*history search*/
 h2#title.style-scope.ytd-sub-feed-selector-renderer, /*history search attributes*/
-yt-formatted-string.style-scope.ytd-sub-feed-option-renderer
+yt-formatted-string.style-scope.ytd-sub-feed-option-renderer,
+ytd-text-header-renderer[header-style='text-header-renderer-style-bold'] /*history title on top*/
 {
-    color:rgb(166,255,244);
-    --yt-primary-text-color:rgb(166,255,244);
+    color:rgb(166,255,244) !important;
+    
 }
 paper-radio-button.ytd-sub-feed-option-renderer, /*history search attribute buttons(round)*/
 div#offRadio.style-scope.paper-radio-button,
@@ -199,7 +204,7 @@ paper-button.style-scope.ytd-subscribe-button-renderer {
 }   
 yt-formatted-string.style-scope.ytd-subscribe-button-renderer,
 span.deemphasize.style-scope.yt-formatted-string{
-   color: rgb(9, 14, 13) /*subscribe buttons text*/
+   color: rgb(166,255,244); /*subscribe buttons text*/
 }
 html:not([style-scope]):not(.style-scope){
     --yt-notification-button-bubble_-_background-color:rgb(0, 255, 242) !important;
@@ -297,9 +302,10 @@ a.yt-simple-endpoint.style-scope.yt-formatted-string:only-child, /*my mixes meta
 {
     color:rgb(197, 240, 235) !important;
 }
-a.yt-simple-endpoint.style-scope.yt-formatted-string:only-child,
-yt-formatted-string[has-link-only_]:not([force-default-style]) a.yt-simple-endpoint.yt-formatted-string{
-    color:rgb(197, 240, 235) !important;/*channel name on main page under videos*/
+a.yt-simple-endpoint.style-scope.yt-formatted-string:only-child,/*channel name on main page under videos*/
+yt-formatted-string[has-link-only_]:not([force-default-style]) a.yt-simple-endpoint.yt-formatted-string,/*left side menu KOGU */
+#guide-section-title.ytd-guide-section-renderer /* guide section name color*/{
+    color:rgb(197, 240, 235) !important;
 }
 #guide-links-primary.ytd-guide-renderer > a,
 #guide-links-secondary.ytd-guide-renderer > a{ /*YT info (privacy and stuff) under guide */
@@ -428,11 +434,10 @@ yt-formatted-string#content-text.style-scope.ytd-comment-renderer{
 div#channel-container.style-scope.ytd-c4-tabbed-header-renderer,
 div#tabs-inner-container.style-scope.ytd-c4-tabbed-header-renderer,
 paper-tabs.ytd-interactive-tabbed-header-renderer, /*game page small container*/
-#channel-details.ytd-gaming-destination-header-rendere,/*game browser header container*/
+#channel-details.ytd-gaming-destination-header-renderer,/*game browser header container*/
 #tabs-inner-container.ytd-interactive-tabbed-header-renderer/*game page small container*/{
-    background: linear-gradient(to right,rgb(84,25,25),rgb(105,83,80),rgb(146,198,189)); 
-    /*channel name container*/
-    --yt-channel-header-background: linear-gradient(to right,rgb(84,25,25),rgb(105,83,80),rgb(146,198,189));
+    background: linear-gradient(to right,rgb(84,25,25),rgb(105,83,80),rgb(146,198,189)) !important; 
+    --yt-channel-header-background: linear-gradient(to right,rgb(84,25,25),rgb(105,83,80),rgb(146,198,189)) !important; 
 }
 
 ytd-c4-tabbed-header-renderer {
@@ -442,8 +447,10 @@ ytd-c4-tabbed-header-renderer {
 span#channel-title.style-scope.ytd-c4-tabbed-header-renderer{
     color: rgb(166,255,244); /*channel name*/
 }
-yt-formatted-string#subscriber-count.style-scope.ytd-c4-tabbed-header-renderer{
-    color: rgb(84, 124, 120); /*supscriber count*/
+yt-formatted-string#subscriber-count.style-scope.ytd-c4-tabbed-header-renderer,/*subscriber count*/
+#subtitle.ytd-topic-channel-details-renderer, /*subscriber count on game page*/
+#title.ytd-channel-list-sub-menu-avatar-renderer/*text under bigger buttons on trending page*/{
+    color: rgb(84, 124, 120) !important; 
 }
 div.tab-content.style-scope.paper-tab{
     color: rgb(107, 158, 152); /*navi nupud*/
