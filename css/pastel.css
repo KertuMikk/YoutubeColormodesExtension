@@ -338,6 +338,26 @@ ytd-author-comment-badge-renderer[icon-type="CHECK"].creator #icon.ytd-author-co
     height: 10px;
     width: 10px;
 }
+
+.header.ytd-playlist-panel-renderer/*background behind playlist name*/{
+    background-color: #FFBDDC !important;
+}
+.playlist-items.ytd-playlist-panel-renderer/*playlist background*/{
+    background-color: rgba(255, 189, 220, 0.664) !important;
+}
+#more-text.ytd-comment-replies-renderer, 
+#less-text.ytd-comment-replies-renderer,/*show more comments*/
+.content.ytd-video-secondary-info-renderer,/*info box under video*/
+#title.ytd-rich-metadata-renderer/*game name*/{
+    color: #393637 !important;
+}
+a.ytd-rich-metadata-renderer/*game boxes under the video*/{
+background-color: #FFBDDC;
+}
+
+
+
+
 .index-message.ytd-playlist-panel-renderer, /*playlist video count*/
 .publisher.ytd-playlist-panel-renderer:not(:empty) + .index-message.ytd-playlist-panel-renderer::before, /*little line next to count*/
 #video-title.ytd-playlist-panel-video-renderer /*video name in playlist*/

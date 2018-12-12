@@ -5,7 +5,7 @@ ytd-alert-renderer.style-scope.ytd-browse,
 ytd-two-column-browse-results-renderer.style-scope.ytd-browse,
 ytd-watch.style-scope.ytd-page-manager.hide-skeleton,
 ytd-watch-flexy.style-scope.ytd-page-manager.hide-skeleton {
-    background: linear-gradient(to right,rgb(84,25,25),rgb(105,83,80),rgb(146,198,189)); 
+    background: linear-gradient(to right,rgb(84,25,25),rgb(105,83,80),rgb(96, 128, 122)); 
 } /*all main backgrounds*/
 #contents.ytd-section-list-renderer > *.ytd-section-list-renderer:not(:last-child):not(ytd-page-introduction-renderer), /*bottom lines that come with light theme*/
 #guide-links-primary.ytd-guide-renderer,
@@ -339,6 +339,25 @@ ytd-author-comment-badge-renderer[icon-type="CHECK"].creator #icon.ytd-author-co
     height: 10px;
     width: 10px;
 }
+
+
+.header.ytd-playlist-panel-renderer/*background behind playlist name*/{
+    background-color: #541919 !important;
+}
+.playlist-items.ytd-playlist-panel-renderer/*playlist background*/{
+    background-color: #5419195b !important;
+}
+#more-text.ytd-comment-replies-renderer, 
+#less-text.ytd-comment-replies-renderer,/*show more comments*/
+.content.ytd-video-secondary-info-renderer,/*info box under video*/
+#title.ytd-rich-metadata-renderer/*game name*/{
+    color: #B7F0E5 !important;
+}
+a.ytd-rich-metadata-renderer/*game boxes under the video*/{
+background-color: #541919;
+}
+
+
 .index-message.ytd-playlist-panel-renderer, /*playlist video count*/
 .publisher.ytd-playlist-panel-renderer:not(:empty) + .index-message.ytd-playlist-panel-renderer::before, /*little line next to count*/
 #video-title.ytd-playlist-panel-video-renderer /*video name in playlist*/
