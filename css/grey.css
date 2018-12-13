@@ -68,10 +68,14 @@ ytd-searchbox[mode=legacy-centered] #container.ytd-searchbox
 }
 
 
-ytd-playlist-sidebar-renderer.style-scope.ytd-browse{
-    background:rgb(32, 32, 32); 
-    /*playlist name background*/
-
+ytd-playlist-sidebar-renderer.style-scope.ytd-browse,/*playlist name background*/
+ytd-browse[page-subtype="playlist"] #alerts.ytd-browse yt-alert-renderer.ytd-browse,/*playlist alert background box*/
+div#container.INFO.style-scope.ytd-alert-renderer,
+yt-formatted-string.style-scope.ytd-alert-renderer,
+#container.yt-alert-renderer{
+    color: white !important;
+    background:rgb(32, 32, 32) !important; 
+  
 }
 ytd-app
 {

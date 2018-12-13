@@ -69,9 +69,10 @@ ytd-searchbox[mode=legacy-centered] #container.ytd-searchbox
 }
 
 
-ytd-playlist-sidebar-renderer.style-scope.ytd-browse{
-    background:rgb(0,27,30); 
-    /*playlist name background*/
+ytd-playlist-sidebar-renderer.style-scope.ytd-browse,/*playlist name background*/
+ytd-browse[page-subtype="playlist"] #alerts.ytd-browse yt-alert-renderer.ytd-browse/*playlist alert background box*/{
+    background:rgb(0,27,30) !important; 
+    
 
 }
 ytd-app
@@ -247,9 +248,13 @@ div#stats.style-scope.ytd-playlist-sidebar-primary-info-renderer{
     color:rgb(196, 195, 195); /*playlist info*/
 }
 div#container.INFO.style-scope.ytd-alert-renderer,
-yt-formatted-string.style-scope.ytd-alert-renderer{
+yt-formatted-string.style-scope.ytd-alert-renderer,
+div#container.INFO.style-scope.ytd-alert-renderer,
+yt-formatted-string.style-scope.ytd-alert-renderer,
+#container.yt-alert-renderer
+{
     background : rgb(177, 16, 4);
-    color:rgb(196, 195, 195); /*playlist alert*/
+    color:rgb(196, 195, 195) !important; /*playlist alert*/
 }
 
 /*home page colors*/

@@ -69,7 +69,7 @@ ytd-searchbox[mode=legacy-centered] #container.ytd-searchbox
 
 
 ytd-playlist-sidebar-renderer.style-scope.ytd-browse{
-    background: linear-gradient(to bottom, black,#1c2338,#1c2746,#1d294d); 
+    background: linear-gradient(to bottom, black,#1c2338,#1c2746,#1d294d) !important; 
 
 
 }
@@ -338,7 +338,13 @@ ytd-author-comment-badge-renderer[icon-type="CHECK"].creator #icon.ytd-author-co
     width: 10px;
 }
 
-.header.ytd-playlist-panel-renderer/*background behind playlist name*/{
+.header.ytd-playlist-panel-renderer,/*background behind playlist name*/
+ytd-playlist-sidebar-renderer.style-scope.ytd-browse,/*playlist name background*/
+ytd-browse[page-subtype="playlist"] #alerts.ytd-browse yt-alert-renderer.ytd-browse,/*playlist alert background box*/
+div#container.INFO.style-scope.ytd-alert-renderer,
+yt-formatted-string.style-scope.ytd-alert-renderer,
+#container.yt-alert-renderer{
+    color: rgb(98, 133, 204)!important;
     background-color: #171C2D !important;
 }
 .playlist-items.ytd-playlist-panel-renderer/*playlist background*/{

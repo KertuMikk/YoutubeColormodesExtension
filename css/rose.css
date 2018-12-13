@@ -71,8 +71,13 @@ button#search-icon-legacy.style-scope.ytd-searchbox{/*search button*/
     --ytd-searchbox-legacy-button-color :rgb(17, 23, 41);
 }
 
-ytd-playlist-sidebar-renderer.style-scope.ytd-browse{
-    background: rgb(173, 123, 126);/*playlist name background*/
+ytd-playlist-sidebar-renderer.style-scope.ytd-browse,/*playlist name background*/
+ytd-browse[page-subtype="playlist"] #alerts.ytd-browse yt-alert-renderer.ytd-browse,/*playlist alert background box*/
+div#container.INFO.style-scope.ytd-alert-renderer,
+yt-formatted-string.style-scope.ytd-alert-renderer,
+#container.yt-alert-renderer{
+    color: rgb(17, 23, 41) !important;
+    background: rgb(173, 123, 126) !important;
 
 }
 ytd-app
