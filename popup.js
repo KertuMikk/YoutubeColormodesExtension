@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-const kButtonTheme = ['pastel', 'red', 'navy', 'grey', 'Mint', 'rose', 'feather', 'fox']
+const kButtonTheme = ['pastel', 'red', 'navy', 'grey', 'Mint', 'rose', 'feather', 'fox', 'sweater']
 
 function constructOptions (kButtonTheme) {
   for (let item of kButtonTheme) {
