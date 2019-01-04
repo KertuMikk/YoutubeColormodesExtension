@@ -230,7 +230,7 @@ button#search-icon-legacy.style-scope.ytd-searchbox{/*search button*/
 
 paper-button#button.style-scope.ytd-toggle-button-renderer.style-compact-gray/*lisa meeldetuletus button tekst*/
 {
-    --yt-button-color: rgb(30, 129, 114) !important;
+    --yt-button-color: rgb(52, 209, 186) !important;
     background:rgb(30, 129, 114) !important;
 }
 
