@@ -359,8 +359,9 @@ ytd-author-comment-badge-renderer[icon-type="CHECK"].creator #icon.ytd-author-co
 #title.ytd-rich-metadata-renderer/*game name*/{
     color: rgb(161, 161, 161) !important;
 }
-a.ytd-rich-metadata-renderer/*game boxes under the video*/{
-background-color: #610700;
+a.ytd-rich-metadata-renderer/*game boxes under the video*/,
+#items.yt-horizontal-list-renderer > ytd-post-renderer.yt-horizontal-list-renderer /*newest posts*/{
+background-color: rgb(1, 74, 77);
 }
 .index-message.ytd-playlist-panel-renderer, /*playlist video count*/
 .publisher.ytd-playlist-panel-renderer:not(:empty) + .index-message.ytd-playlist-panel-renderer::before, /*little line next to count*/

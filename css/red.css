@@ -354,7 +354,8 @@ ytd-author-comment-badge-renderer[icon-type="CHECK"].creator #icon.ytd-author-co
 #title.ytd-rich-metadata-renderer/*game name*/{
     color: rgb(206, 1, 69) !important;
 }
-a.ytd-rich-metadata-renderer/*game boxes under the video*/{
+a.ytd-rich-metadata-renderer/*game boxes under the video*/,
+#items.yt-horizontal-list-renderer > ytd-post-renderer.yt-horizontal-list-renderer /*newest posts*/{
 background-color: #6E0021;
 }
 

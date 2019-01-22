@@ -352,7 +352,8 @@ ytd-author-comment-badge-renderer[icon-type="CHECK"].creator #icon.ytd-author-co
 #title.ytd-rich-metadata-renderer/*game name*/{
     color: rgb(48, 44, 49) !important;
 }
-a.ytd-rich-metadata-renderer/*game boxes under the video*/{
+a.ytd-rich-metadata-renderer/*game boxes under the video*/,
+#items.yt-horizontal-list-renderer > ytd-post-renderer.yt-horizontal-list-renderer /*newest posts*/{
 background-color: #407c8e;
 }
 
@@ -421,7 +422,7 @@ h4#title.style-scope.ytd-metadata-row-renderer,
 yt-formatted-string.more-button.style-scope.ytd-video-secondary-info-renderer,
 g.style-scope.yt-icon
 {
-    color:rgb(48, 44, 49);/*comment sort,
+    color:rgb(86, 94, 97);/*comment sort,
      icons,
      show more,
      comment button text,
