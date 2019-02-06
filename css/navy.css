@@ -241,6 +241,9 @@ yt-formatted-string#index.style-scope.ytd-playlist-video-renderer
 div#stats.style-scope.ytd-playlist-sidebar-primary-info-renderer{
     color:rgb(93, 96, 138); /*playlist info*/
 }
+ytd-playlist-video-renderer{ /*hover over playlist item*/
+    --yt-std-surface-300 : #161616;
+}
 div#container.INFO.style-scope.ytd-alert-renderer,
 yt-formatted-string.style-scope.ytd-alert-renderer{
     background : rgb(29, 54, 107);
@@ -343,9 +346,11 @@ ytd-playlist-sidebar-renderer.style-scope.ytd-browse,/*playlist name background*
 ytd-browse[page-subtype="playlist"] #alerts.ytd-browse yt-alert-renderer.ytd-browse,/*playlist alert background box*/
 div#container.INFO.style-scope.ytd-alert-renderer,
 yt-formatted-string.style-scope.ytd-alert-renderer,
-#container.yt-alert-renderer{
+#container.yt-alert-renderer,
+yt-formatted-string.yt-alert-renderer{
     color: rgb(98, 133, 204)!important;
     background-color: #171C2D !important;
+    font-weight: normal !important;
 }
 .playlist-items.ytd-playlist-panel-renderer/*playlist background*/{
     background-color: #171C2D !important;

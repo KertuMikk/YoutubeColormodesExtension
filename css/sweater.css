@@ -247,11 +247,16 @@ yt-formatted-string#index.style-scope.ytd-playlist-video-renderer
 div#stats.style-scope.ytd-playlist-sidebar-primary-info-renderer{
     color:rgb(196, 195, 195); /*playlist info*/
 }
+ytd-playlist-video-renderer{ /*hover over playlist item*/
+    --yt-std-surface-300 : #532424;
+}
 div#container.INFO.style-scope.ytd-alert-renderer,
 yt-formatted-string.style-scope.ytd-alert-renderer,
-#container.yt-alert-renderer{
+#container.yt-alert-renderer,
+yt-formatted-string.yt-alert-renderer{
     background : rgb(30, 129, 114) !important;
     color:rgb(196, 195, 195) !important; /*playlist alert*/
+    font-weight: normal !important;
 }
 
 /*home page colors*/
