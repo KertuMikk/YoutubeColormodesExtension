@@ -43,8 +43,13 @@ ytd-two-column-browse-results-renderer.ytd-browse,
     background: rgb(84,25,25); 
 }
 #guide-inner-content,
-#header.ytd-app{
-    background: rgb(84,25,25);
+#header.ytd-app,
+ytd-mini-guide-renderer.ytd-app
+{
+    background: rgb(84,25,25) ;
+}
+ytd-mini-guide-entry-renderer{/*mini guide entries fix*/
+    background-color:rgba(255, 255, 255, 0) !important;
 }
 .badge-style-type-simple.ytd-badge-supported-renderer/*subtitles badge*/
 {
@@ -94,7 +99,7 @@ div#container.menu-container.ytd-multi-page-menu-renderer{
 ytd-multi-page-menu-renderer[menu-style="multi-page-menu-style-type-conversations"]{
     background: rgb(105,83,80); /*messages background*/
 } 
-h2.ytd-simple-menu-header-renderer,
+h2.ytd-simple-menu-header-renderer
 {/*notification title*/
     color: rgb(119, 165, 163);
 }
@@ -261,7 +266,7 @@ yt-formatted-string.style-scope.ytd-alert-renderer{
 
 /*home page colors*/
 .ytd-guide-entry-renderer{
-    color: rgb(166,255,244); /*guide text color*/
+    color: rgb(166,255,244) !important; /*guide text color*/
     
 }
 yt-formatted-string.style-scope.ytd-grid-renderer /*main page show more*/
@@ -369,7 +374,10 @@ background-color: #541919;
 }
 #dismissable.ytd-video-renderer/*newest post smaller box*/
 {
-    background-color: #692121;
+    background-color: rgba(196, 210, 255, 0);
+}
+#content-attachment.ytd-post-renderer ytd-video-renderer.ytd-post-renderer{
+    background-color:rgba(196, 210, 255, 0) !important; /*background that fucks up*/
 }
 
 .index-message.ytd-playlist-panel-renderer, /*playlist video count*/

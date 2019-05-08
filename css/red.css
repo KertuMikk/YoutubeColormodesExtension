@@ -43,9 +43,13 @@ ytd-two-column-browse-results-renderer.ytd-browse,
     background: rgb(110, 0, 33);
 }
 #guide-inner-content,
-#header.ytd-app{
-    background: rgb(110, 0, 33);
+#header.ytd-app,
+ytd-mini-guide-renderer.ytd-app{
+    background: rgb(110, 0, 33) ;
 
+}
+ytd-mini-guide-entry-renderer{/*mini guide entries fix*/
+    background-color:rgba(255, 255, 255, 0) !important;
 }
 .badge-style-type-simple.ytd-badge-supported-renderer/*subtitles badge*/
 {
@@ -94,7 +98,7 @@ div#container.menu-container.ytd-multi-page-menu-renderer{
 ytd-multi-page-menu-renderer[menu-style="multi-page-menu-style-type-conversations"]{
     background: rgb(32, 0, 9); /*messages background*/
 } 
-h2.ytd-simple-menu-header-renderer,
+h2.ytd-simple-menu-header-renderer
 {/*notification title*/
     color: rgb(219, 159, 169) !important;
 }
@@ -261,7 +265,7 @@ yt-formatted-string.style-scope.ytd-alert-renderer{
 
 /*home page colors*/
 .ytd-guide-entry-renderer{
-    color: rgb(219, 159, 169); /*guide text color*/
+    color: rgb(219, 159, 169) !important; /*guide text color*/
     
 }
 yt-formatted-string.style-scope.ytd-grid-renderer /*main page show more*/
@@ -361,13 +365,15 @@ yt-formatted-string#home-content-text.style-scope.ytd-post-renderer /*comment in
 }
 a.ytd-rich-metadata-renderer/*game boxes under the video*/,
 #items.yt-horizontal-list-renderer > ytd-post-renderer.yt-horizontal-list-renderer /*newest posts*/{
-background-color: #6E0021;
+background-color: rgb(83, 0, 25);
 }
 #dismissable.ytd-video-renderer/*newest post smaller box*/
 {
-    background-color: rgb(78, 0, 23);
+    background-color: rgba(196, 210, 255, 0);
 }
-
+#content-attachment.ytd-post-renderer ytd-video-renderer.ytd-post-renderer{
+    background-color:rgba(196, 210, 255, 0) !important; /*background that fucks up*/
+}
 
 
 .index-message.ytd-playlist-panel-renderer, /*playlist video count*/
