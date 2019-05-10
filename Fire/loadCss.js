@@ -11,7 +11,7 @@ window.onload = function () {
   test()
 } */
 function test () {
-  chrome.storage.sync.get('item', function (data) {
+  browser.storage.sync.get('item', function (data) {
     // let link = document.createElement('link')
     // link.href = chrome.extension.getURL('css/' + data.item)
     // link.type = 'text/css'

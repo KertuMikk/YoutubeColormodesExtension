@@ -5,7 +5,7 @@ ytd-alert-renderer.style-scope.ytd-browse,
 ytd-two-column-browse-results-renderer.style-scope.ytd-browse,
 ytd-watch.style-scope.ytd-page-manager.hide-skeleton,
 ytd-watch-flexy.style-scope.ytd-page-manager.hide-skeleton {
-    background-image:url('https://raw.githubusercontent.com/KertuMikk/YoutubeColormodesExtension/master/backgrounds/sweaterPattern.jpg'); 
+    background-image:url('https://raw.githubusercontent.com/KertuMikk/YoutubeColormodesExtension/master/Fire/backgrounds/sweaterPattern.jpg'); 
     
 } /*all main backgrounds*/
 #contents.ytd-section-list-renderer > *.ytd-section-list-renderer:not(:last-child):not(ytd-page-introduction-renderer), /*bottom lines that come with light theme*/

@@ -8,7 +8,7 @@ function constructOptions (kButtonTheme) {
     let button = document.createElement('button')
     button.style.height = 150 + 'px'
     button.style.width = 150 + 'px'
-    button.style.backgroundImage = "url('https://raw.githubusercontent.com/KertuMikk/YoutubeColormodesExtension/master/images/" + item + "BIG.png')"
+    button.style.backgroundImage = "url('https://raw.githubusercontent.com/KertuMikk/YoutubeColormodesExtension/master/Fire/images/" + item + "BIG.png')"
     let name = document.createElement('p')
     let node = document.createTextNode(item)
     name.appendChild(node)

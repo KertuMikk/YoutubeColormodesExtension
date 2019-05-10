@@ -9,7 +9,7 @@ function constructOptions (kButtonTheme) {
     let button = document.createElement('button')
     button.style.height = 40 + 'px'
     button.style.width = 40 + 'px'
-    button.style.backgroundImage = "url('https://raw.githubusercontent.com/KertuMikk/YoutubeColormodesExtension/master/images/" + item + ".png')"
+    button.style.backgroundImage = "url('https://raw.githubusercontent.com/KertuMikk/YoutubeColormodesExtension/master/Chrome/images/" + item + ".png')"
 
     button.onclick = function () {
       chrome.storage.sync.set({item: item + '.css'}, function () {
